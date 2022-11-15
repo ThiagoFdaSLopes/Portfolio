@@ -1,8 +1,9 @@
 import React from 'react';
+import Rotas from './Routes/Rotas';
 
 function App() {
   return (
-    <h1>Home</h1>
+    <Rotas />
   );
 }
 
