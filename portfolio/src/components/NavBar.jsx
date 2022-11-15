@@ -1,8 +1,9 @@
 import React from 'react';
+import { Nav } from '../styles';
 
 const NavBar = () => {
   return (
-    <div>NavBar</div>
+    <Nav />
   )
 }
 

@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Header = styled.header`
   display: flex;
   align-items: center;
+  justify-content: space-around;
   width: 90vw;
   height: 55px;
   margin-top: 100px;
@@ -22,4 +23,14 @@ export const Logo = styled.p`
   line-height: 55px;
   padding: 10px;
   color: white;
+`;
+
+export const Nav = styled.nav`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30%;
+  width: 50%;
+  border-radius: 15px;
+  height: 55px;
 `;
