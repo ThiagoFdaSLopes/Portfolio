@@ -1,9 +1,11 @@
 import React from 'react';
-import { Header } from '../styles';
+import { Header, Logo } from '../styles';
 
 const HeaderHome = () => {
   return (
-    <Header />
+    <Header>
+      <Logo>{'< />'}</Logo>
+    </Header>
   )
 }
 
