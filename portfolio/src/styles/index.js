@@ -49,19 +49,89 @@ export const Main = styled.main`
   display: flex;
   width: 100%;
   height: 52rem;
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
 `;
 
 export const SectionInfo = styled.section`
   display: flex;
-  width: 50%;
+  flex-direction: column;
+  margin-left: 10rem;
+  width: 45rem;
   height: 52rem;
-  background-color: antiquewhite;
+  /* background-color: blue; */
 `;
 
 export const SectionPhoto = styled.section`
   display: flex;
-  width: 50%;
+  width: 55rem;
   height: 52rem;
-  background-color: blue;
+  /* background-color: blue; */
+`;
+
+export const DivApresentacao = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+  height: 20rem;
+  margin-top: 13rem;
+  margin-left: 6rem;
+  /* background-color: aliceblue; */
+
+  .name {
+    font-family: 'League Spartan';
+    margin: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    color: white;
+  }
+  .stack {
+    font-family: 'League Spartan';
+    margin: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    color: white;
+  }
+`;
+
+export const DivSaudacao = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+  height: 3rem;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  background-color: white;
+
+  img {
+    width: 32px;
+    margin-right: 10px;
+  }
+
+  p {
+    font-family: 'League Spartan';
+    font-size: 24px;
+    font-weight: 700;
+  }
+`;
+
+export const DivLinks = styled.div`
+  display: flex;
+  width:  200px;
+  height: 50px;
+  margin-left: 10rem;
+  /* background-color: aliceblue; */
+  justify-content: center;
+  align-items: center;
+
+  .github {
+    width: 52px;
+  }
+
+  .linkedin {
+    margin-right: 5px;
+    width: 48px;
+  }
 `;
