@@ -49,7 +49,6 @@ export const Main = styled.main`
   display: flex;
   width: 100%;
   height: 52rem;
-  /* background-color: aliceblue; */
 `;
 
 export const SectionInfo = styled.section`
@@ -58,14 +57,12 @@ export const SectionInfo = styled.section`
   margin-left: 10rem;
   width: 45rem;
   height: 52rem;
-  /* background-color: blue; */
 `;
 
 export const SectionPhoto = styled.section`
   display: flex;
   width: 55rem;
   height: 52rem;
-  /* background-color: blue; */
 `;
 
 export const DivApresentacao = styled.div`
@@ -75,7 +72,6 @@ export const DivApresentacao = styled.div`
   height: 20rem;
   margin-top: 13rem;
   margin-left: 6rem;
-  /* background-color: aliceblue; */
 
   .name {
     font-family: 'League Spartan';
@@ -122,7 +118,6 @@ export const DivLinks = styled.div`
   width:  200px;
   height: 50px;
   margin-left: 10rem;
-  /* background-color: aliceblue; */
   justify-content: center;
   align-items: center;
 
