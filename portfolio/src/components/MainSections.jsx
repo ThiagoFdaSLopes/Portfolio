@@ -34,7 +34,7 @@ const MainSections = () => {
               />
             </a>
             <a
-              href="https://www.linkedin.com/in/thiago-lopes-dev-/"
+              href="https://github.com/ThiagoFdaSLopes"
               target="_blank"
             >
               <img
