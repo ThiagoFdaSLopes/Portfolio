@@ -44,3 +44,24 @@ export const StyledLink = styled(Link)`
   color: white;
   text-decoration: none;
 `;
+
+export const Main = styled.main`
+  display: flex;
+  width: 100%;
+  height: 52rem;
+  background-color: aliceblue;
+`;
+
+export const SectionInfo = styled.section`
+  display: flex;
+  width: 50%;
+  height: 52rem;
+  background-color: antiquewhite;
+`;
+
+export const SectionPhoto = styled.section`
+  display: flex;
+  width: 50%;
+  height: 52rem;
+  background-color: blue;
+`;
