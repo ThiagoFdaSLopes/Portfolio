@@ -61,6 +61,8 @@ export const SectionInfo = styled.section`
 
 export const SectionPhoto = styled.section`
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 55rem;
   height: 52rem;
 `;
@@ -68,10 +70,13 @@ export const SectionPhoto = styled.section`
 export const DivApresentacao = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 40rem;
   height: 20rem;
   margin-top: 13rem;
   margin-left: 6rem;
+  /* background-color: blue; */
 
   .name {
     font-family: 'League Spartan';
@@ -117,7 +122,7 @@ export const DivLinks = styled.div`
   display: flex;
   width:  200px;
   height: 50px;
-  margin-left: 10rem;
+  margin-left: 2rem;
   justify-content: center;
   align-items: center;
 
@@ -126,7 +131,70 @@ export const DivLinks = styled.div`
   }
 
   .linkedin {
-    margin-right: 5px;
+    margin-right: 8px;
     width: 48px;
+  }
+`;
+
+export const Circle = styled.div`
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  border-radius: 100%;
+  background-color: black;
+  -webkit-box-shadow: 1px 1px 36px -4px white;
+  -moz-box-shadow: 1px 1px 36px -4px white;
+  box-shadow: 1px 1px 36px -4px white;
+  z-index: 1;
+`;
+
+export const DivPhoto = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35rem;
+  height: 35rem;
+  /* background-color: beige; */
+
+  .react {
+    position: relative;
+    bottom: 150px;
+    right: 90px;
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    background-color: aliceblue;
+    z-index: 2;
+    -webkit-box-shadow: 1px 1px 36px -4px white;
+    -moz-box-shadow: 1px 1px 36px -4px white;
+    box-shadow: 1px 1px 36px -4px white;
+  }
+
+  .javascript {
+    position: relative;
+    bottom: 135px;
+    left: 185px;
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    background-color: aliceblue;
+    z-index: 3;
+    -webkit-box-shadow: 1px 1px 36px -4px white;
+    -moz-box-shadow: 1px 1px 36px -4px white;
+    box-shadow: 1px 1px 36px -4px white;
+  }
+
+  .nodejs {
+    position: relative;
+    top: 120px;
+    right: 260px;
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    background-color: aliceblue;
+    z-index: 4;
+    -webkit-box-shadow: 1px 1px 36px -4px white;
+    -moz-box-shadow: 1px 1px 36px -4px white;
+    box-shadow: 1px 1px 36px -4px white;
   }
 `;

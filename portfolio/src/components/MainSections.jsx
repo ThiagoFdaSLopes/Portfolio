@@ -6,9 +6,12 @@ import {
   DivSaudacao,
   DivApresentacao,
   DivLinks,
+  DivPhoto,
+  Circle,
 } from '../styles';
 import hand from '../assets/hand.svg';
 import LinksGitLinkedin from './LinksGitLinkedin';
+import heade from '../assets/thiago.svg';
 
 const MainSections = () => {
   const name = '<THIAGO LOPES />';
@@ -28,7 +31,16 @@ const MainSections = () => {
           </DivLinks>
         </DivApresentacao>
       </SectionInfo>
-      <SectionPhoto />
+      <SectionPhoto>
+        <DivPhoto>
+          <div className="react"></div>
+          <div className="javascript"></div>
+          <Circle>
+            <img src={heade} alt="head thiago" width="450px" />
+          </Circle>
+          <div className="nodejs"></div>
+        </DivPhoto>
+      </SectionPhoto>
     </Main>
   );
 };
