@@ -23,13 +23,12 @@ export const Logo = styled.p`
   text-align: center;
   line-height: 55px;
   padding: 10px;
-  color: white;
 `;
 
 export const Nav = styled.nav`
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-left: 30%;
   width: 35%;
   border-radius: 15px;
@@ -39,7 +38,8 @@ export const Nav = styled.nav`
 export const StyledLink = styled(Link)`
   font-family: 'League Spartan';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
+  margin-right: 1rem;
   font-size: 24px;
   color: white;
   text-decoration: none;
