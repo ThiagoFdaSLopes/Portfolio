@@ -157,44 +157,48 @@ export const DivPhoto = styled.div`
   /* background-color: beige; */
 
   .react {
+    /* display: flex; */
     position: relative;
-    bottom: 150px;
-    right: 90px;
+    text-align: center;
+    bottom: 130px;
+    right: 85px;
     border-radius: 100%;
     width: 80px;
     height: 80px;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     z-index: 2;
-    -webkit-box-shadow: 1px 1px 36px -4px white;
+    /* -webkit-box-shadow: 1px 1px 36px -4px white;
     -moz-box-shadow: 1px 1px 36px -4px white;
-    box-shadow: 1px 1px 36px -4px white;
+    box-shadow: 1px 1px 36px -4px white; */
   }
 
   .javascript {
+    /* display: flex; */
     position: relative;
     bottom: 135px;
     left: 185px;
     border-radius: 100%;
     width: 80px;
     height: 80px;
-    background-color: aliceblue;
+    /* background-color: white; */
     z-index: 3;
-    -webkit-box-shadow: 1px 1px 36px -4px white;
-    -moz-box-shadow: 1px 1px 36px -4px white;
-    box-shadow: 1px 1px 36px -4px white;
+    /* -webkit-box-shadow: 1px 1px 36px -4px white;
+    -moz-box-shadow: 1px 1px 36px -4px white; */
+    /* box-shadow: 1px 1px 36px -4px white; */
   }
 
   .nodejs {
+    /* display: flex; */
     position: relative;
     top: 120px;
     right: 260px;
     border-radius: 100%;
     width: 80px;
     height: 80px;
-    background-color: aliceblue;
+    /* background-color: whitesmoke; */
     z-index: 4;
-    -webkit-box-shadow: 1px 1px 36px -4px white;
+    /* -webkit-box-shadow: 1px 1px 36px -4px white;
     -moz-box-shadow: 1px 1px 36px -4px white;
-    box-shadow: 1px 1px 36px -4px white;
+    box-shadow: 1px 1px 36px -4px white; */
   }
 `;

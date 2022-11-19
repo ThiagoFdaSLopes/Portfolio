@@ -12,6 +12,9 @@ import {
 import hand from '../assets/hand.svg';
 import LinksGitLinkedin from './LinksGitLinkedin';
 import heade from '../assets/thiago.svg';
+import ReactLogo from '../assets/react.svg';
+import nodejs from '../assets/nodejs.svg';
+import js from '../assets/js.svg';
 
 const MainSections = () => {
   const name = '<THIAGO LOPES />';
@@ -33,12 +36,18 @@ const MainSections = () => {
       </SectionInfo>
       <SectionPhoto>
         <DivPhoto>
-          <div className="react"></div>
-          <div className="javascript"></div>
+          <div className="react">
+            <img src={ReactLogo} alt="react logo" />
+          </div>
+          <div className="javascript">
+            <img src={js} alt="javascript logo" />
+          </div>
           <Circle>
-            <img src={heade} alt="head thiago" width="450px" />
+            <img src={heade} alt="head thiago" />
           </Circle>
-          <div className="nodejs"></div>
+          <div className="nodejs">
+            <img src={nodejs} alt="nodejs logo" />
+          </div>
         </DivPhoto>
       </SectionPhoto>
     </Main>
