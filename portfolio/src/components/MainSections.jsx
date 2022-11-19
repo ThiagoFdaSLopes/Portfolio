@@ -8,7 +8,7 @@ import {
   DivLinks,
 } from '../styles';
 import hand from '../assets/hand.svg';
-import git from '../assets/github.png';
+import LinksGitLinkedin from './LinksGitLinkedin';
 
 const MainSections = () => {
   const name = '<THIAGO LOPES />';
@@ -24,24 +24,7 @@ const MainSections = () => {
           <p className="name">{name}</p>
           <p className="stack">{stack}</p>
           <DivLinks>
-            <a
-              href="https://www.linkedin.com/in/thiago-lopes-dev-/"
-              target="_blank"
-            >
-              <img
-                className="linkedin"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
-              />
-            </a>
-            <a
-              href="https://github.com/ThiagoFdaSLopes"
-              target="_blank"
-            >
-              <img
-                className="github"
-                src={ git }
-              />
-            </a>
+            <LinksGitLinkedin />
           </DivLinks>
         </DivApresentacao>
       </SectionInfo>
