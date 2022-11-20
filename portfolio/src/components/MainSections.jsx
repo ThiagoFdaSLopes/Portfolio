@@ -6,9 +6,16 @@ import {
   DivSaudacao,
   DivApresentacao,
   DivLinks,
+  DivPhoto,
+  Circle,
 } from '../styles';
 import hand from '../assets/hand.svg';
-import git from '../assets/github.png';
+import LinksGitLinkedin from './LinksGitLinkedin';
+import heade from '../assets/thiago.svg';
+import ReactLogo from '../assets/react.svg';
+import nodejs from '../assets/nodejs.svg';
+import js from '../assets/js.svg';
+import Arrow from '../assets/arrow.svg';
 
 const MainSections = () => {
   const name = '<THIAGO LOPES />';
@@ -24,28 +31,27 @@ const MainSections = () => {
           <p className="name">{name}</p>
           <p className="stack">{stack}</p>
           <DivLinks>
-            <a
-              href="https://www.linkedin.com/in/thiago-lopes-dev-/"
-              target="_blank"
-            >
-              <img
-                className="linkedin"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
-              />
-            </a>
-            <a
-              href="https://github.com/ThiagoFdaSLopes"
-              target="_blank"
-            >
-              <img
-                className="github"
-                src={ git }
-              />
-            </a>
+            <LinksGitLinkedin />
           </DivLinks>
+          <img className="arrow-about" src={Arrow} alt="Arrow" />
         </DivApresentacao>
       </SectionInfo>
-      <SectionPhoto />
+      <SectionPhoto>
+        <DivPhoto>
+          <div className="react">
+            <img src={ReactLogo} alt="react logo" />
+          </div>
+          <div className="javascript">
+            <img src={js} alt="javascript logo" />
+          </div>
+          <Circle>
+            <img src={heade} alt="head thiago" />
+          </Circle>
+          <div className="nodejs">
+            <img src={nodejs} alt="nodejs logo" />
+          </div>
+        </DivPhoto>
+      </SectionPhoto>
     </Main>
   );
 };
