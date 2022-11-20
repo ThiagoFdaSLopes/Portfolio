@@ -20,6 +20,7 @@ export const Logo = styled.p`
   font-family: 'League Spartan', sans-serif;
   font-size: 40px;
   font-weight: 700;
+  color: white;
   text-align: center;
   line-height: 55px;
   padding: 10px;
@@ -196,7 +197,33 @@ export const DivPhoto = styled.div`
 
 export const DivAbout = styled.div`
   display: flex;
-  background-color: aliceblue;
+  justify-content: center;
+  /* background-color: aliceblue; */
   width: 100%;
-  height:60rem;
+  height: 10rem;
+
+  .header-about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 5rem;
+    margin-top: 20px;
+    border-bottom: 5px solid white;
+
+    p {
+      font-size: 50px;
+      color: white;
+    }
+  }
 `;
+
+export const CardMe = styled.div`
+  display: flex;
+  width: 80%;
+  margin-left: 12rem;
+  height: 50rem;
+  /* margin-left: 20rem; */
+  background-color: black;
+`;
+
