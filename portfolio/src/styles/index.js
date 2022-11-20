@@ -157,48 +157,33 @@ export const DivPhoto = styled.div`
   /* background-color: beige; */
 
   .react {
-    /* display: flex; */
     position: relative;
     text-align: center;
-    bottom: 130px;
-    right: 85px;
+    bottom: 155px;
+    left: 180px;
     border-radius: 100%;
-    width: 80px;
-    height: 80px;
-    /* background-color: aliceblue; */
+    width: 20px;
+    height: 20px;
     z-index: 2;
-    /* -webkit-box-shadow: 1px 1px 36px -4px white;
-    -moz-box-shadow: 1px 1px 36px -4px white;
-    box-shadow: 1px 1px 36px -4px white; */
   }
 
   .javascript {
-    /* display: flex; */
     position: relative;
-    bottom: 135px;
+    bottom: 125px;
     left: 185px;
     border-radius: 100%;
-    width: 80px;
-    height: 80px;
-    /* background-color: white; */
+    width: 20px;
+    height: 20px;
     z-index: 3;
-    /* -webkit-box-shadow: 1px 1px 36px -4px white;
-    -moz-box-shadow: 1px 1px 36px -4px white; */
-    /* box-shadow: 1px 1px 36px -4px white; */
   }
 
   .nodejs {
-    /* display: flex; */
     position: relative;
-    top: 120px;
-    right: 260px;
+    bottom:90px;
+    left: 185px;
     border-radius: 100%;
-    width: 80px;
-    height: 80px;
-    /* background-color: whitesmoke; */
+    width: 20px;
+    height: 20px;
     z-index: 4;
-    /* -webkit-box-shadow: 1px 1px 36px -4px white;
-    -moz-box-shadow: 1px 1px 36px -4px white;
-    box-shadow: 1px 1px 36px -4px white; */
   }
 `;
