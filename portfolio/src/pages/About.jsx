@@ -2,8 +2,10 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div>About</div>
-  )
-}
+    <>
+      <AboutMe />
+    </>
+  );
+};
 
 export default About;

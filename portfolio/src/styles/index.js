@@ -193,3 +193,10 @@ export const DivPhoto = styled.div`
     z-index: 4;
   }
 `;
+
+export const DivAbout = styled.div`
+  display: flex;
+  background-color: aliceblue;
+  width: 100%;
+  height:60rem;
+`;

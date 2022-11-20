@@ -8,7 +8,7 @@ const HeaderHome = () => {
       <Logo>{'< />'}</Logo>
       <NavBar />
     </Header>
-  )
-}
+  );
+};
 
 export default HeaderHome;
