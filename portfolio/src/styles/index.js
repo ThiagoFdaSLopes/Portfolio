@@ -224,6 +224,23 @@ export const CardMe = styled.div`
   margin-left: 12rem;
   height: 50rem;
   /* margin-left: 20rem; */
-  background-color: black;
+  /* background-color: black; */
+
+  .photo-card {
+    display: flex;
+    justify-content: center;
+    width: 20rem;
+    height: 35rem;
+    border-radius: 20px;
+    background-color: white;
+
+    .photo {
+      width: 85%;
+      height: 15rem;
+      margin-top: 20px;
+      border-radius: 20px;
+      background-color: black;
+    }
+  }
 `;
 

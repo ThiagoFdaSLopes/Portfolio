@@ -9,7 +9,11 @@ const AboutMe = () => {
           <p>About-Me</p>
         </header>
       </DivAbout>
-      <CardMe />
+      <CardMe>
+        <div className='photo-card'>
+          <div className='photo'></div>
+        </div>
+      </CardMe>
     </>
   );
 };
