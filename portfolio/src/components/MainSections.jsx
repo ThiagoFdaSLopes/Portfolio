@@ -15,6 +15,7 @@ import heade from '../assets/thiago.svg';
 import ReactLogo from '../assets/react.svg';
 import nodejs from '../assets/nodejs.svg';
 import js from '../assets/js.svg';
+import Arrow from '../assets/arrow.svg';
 
 const MainSections = () => {
   const name = '<THIAGO LOPES />';
@@ -32,6 +33,7 @@ const MainSections = () => {
           <DivLinks>
             <LinksGitLinkedin />
           </DivLinks>
+          <img className="arrow-about" src={Arrow} alt="Arrow" />
         </DivApresentacao>
       </SectionInfo>
       <SectionPhoto>

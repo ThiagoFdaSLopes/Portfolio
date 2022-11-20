@@ -94,6 +94,12 @@ export const DivApresentacao = styled.div`
     font-size: 72px;
     color: white;
   }
+
+  .arrow-about {
+    position: relative;
+    top: 290px;
+    left: 310px;
+  }
 `;
 
 export const DivSaudacao = styled.div`
