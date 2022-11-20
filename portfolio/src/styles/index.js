@@ -83,7 +83,7 @@ export const DivApresentacao = styled.div`
     margin: 10px;
     font-style: normal;
     font-weight: 600;
-    font-size: 48px;
+    font-size: 38px;
     color: white;
   }
   .stack {
