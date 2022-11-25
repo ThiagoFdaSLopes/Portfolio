@@ -220,15 +220,18 @@ export const DivAbout = styled.div`
 
 export const CardMe = styled.div`
   display: flex;
+  justify-content: flex-start;
+  align-items: center;
   width: 80%;
   margin-left: 12rem;
-  height: 50rem;
+  height: 45rem;
   /* margin-left: 20rem; */
   /* background-color: black; */
 
   .photo-card {
     display: flex;
     justify-content: center;
+    margin-left: 8rem;
     width: 20rem;
     height: 35rem;
     border-radius: 20px;
@@ -236,11 +239,18 @@ export const CardMe = styled.div`
 
     .photo {
       width: 85%;
-      height: 15rem;
+      height: 18rem;
       margin-top: 20px;
       border-radius: 20px;
       background-color: black;
     }
+  }
+  .description-me {
+    display: flex;
+    width: 60rem;
+    margin-left: 5rem;
+    height: 35rem;
+    background-color: aliceblue;
   }
 `;
 

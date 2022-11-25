@@ -10,9 +10,10 @@ const AboutMe = () => {
         </header>
       </DivAbout>
       <CardMe>
-        <div className='photo-card'>
-          <div className='photo'></div>
+        <div className="photo-card">
+          <div className="photo"></div>
         </div>
+        <div className="description-me"></div>
       </CardMe>
     </>
   );
