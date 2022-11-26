@@ -198,7 +198,6 @@ export const DivPhoto = styled.div`
 export const DivAbout = styled.div`
   display: flex;
   justify-content: center;
-  /* background-color: aliceblue; */
   width: 100%;
   height: 10rem;
 
@@ -282,6 +281,35 @@ export const CardMe = styled.div`
       text-decoration: none;
       font-size: 15px;
       font-weight: 400;
+    }
+  }
+`;
+
+export const ContainerSkills = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-left: 12rem;
+  height: 45rem;
+
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    width: 80%;
+    height: 35rem;
+
+    .habilidades {
+      background-color: black;
+      border-radius: 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      width: 12rem;
+      height: 12rem;
     }
   }
 `;
