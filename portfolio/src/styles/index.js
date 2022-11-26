@@ -225,24 +225,39 @@ export const CardMe = styled.div`
   width: 80%;
   margin-left: 12rem;
   height: 45rem;
-  /* margin-left: 20rem; */
-  /* background-color: black; */
+  background-color: black;
 
   .photo-card {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin-left: 8rem;
     width: 20rem;
-    height: 35rem;
+    height: 30rem;
     border-radius: 20px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
 
     .photo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
       width: 85%;
       height: 18rem;
       margin-top: 20px;
       border-radius: 20px;
-      background-color: black;
+
+      img {
+        border-radius: 20px;
+        width: 17rem;
+        height: 17rem;
+      }
+    }
+
+    .frase-inspiradora {
+      text-align: center;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 300;
     }
   }
   .description-me {
@@ -250,7 +265,8 @@ export const CardMe = styled.div`
     width: 60rem;
     margin-left: 5rem;
     height: 35rem;
-    background-color: aliceblue;
+    border-radius: 2rem;
+    background-color: rgba(255, 255, 255, 0.9);
   }
 `;
 
