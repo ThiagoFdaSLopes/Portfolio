@@ -29,52 +29,52 @@ const AboutMe = () => {
             Nascido em Bebedouro/SP.
           </p>
           <p>
-            Atualmente tenho 26 anos de idade, nasci em 10/07/1996, muitos
-            sonhos para realizar e varios ja realizados!
+            Atualmente tenho 26 anos, nasci em 10/07/1996, muitos sonhos para
+            realizar e vários já realizados!
           </p>
           <p>
             Tudo realmente começou quando eu fui ter contato com a computação
-            aos 7 anos de idade, eu havia pedido para minha mae um computador
-            para jogar counter-strike 1.6(Um jogo de muito sucesso na época). Na
-            época os computadores não eram como hoje super tecnologicos, mas era
-            o suficiente para despertar em mim um interesse gigantesco na área
-            de tecnologia, pois eu aprendi a formatar computadores com 10 anos e
-            a fazer como forma de renda aos 12 anos de idade! Como nem toda
-            historia é feito somente de sucesso, eu queimei muitas fontes de
-            computadores de clientes entres outras peças, mas todo erro nos leva
-            a evoluir e fui aprendendo, fazendo meu primeiro curso de computação
-            com 14 anos nome do curso, Hardware e Redes - Microlins, Limeira-SP.
+            aos 7 anos, eu havia pedido para minha mãe um computador para jogar
+            counter-strike 1.6(Um jogo de muito sucesso na época). Na época os
+            computadores não eram como hoje super tecnológicos, mas era o
+            suficiente para despertar em mim um interesse gigantesco na área de
+            tecnologia, pois eu aprendi a formatar computadores com 10 anos e a
+            fazer como forma de renda aos 12 anos! Como nem toda historia é
+            feito somente de sucesso, eu queimei muitas fontes de computadores
+            de clientes entres outras peças, mas todo erro nos leva a evoluir e
+            fui aprendendo, fazendo meu primeiro curso de computação com 14
+            anos, nome do curso, Hardware e Redes - Microlins, Limeira-SP.
           </p>
           <p>
-            Apartir dos 12 anos até os 18 anos de idade, Eu vivi na programação
-            brincando e trabalhando da melhor forma possivel, eu criava
+            A partir dos 12 anos até os 18 anos, eu vivi na programação
+            brincando e trabalhando da melhor forma possível, eu criava
             "Servidores" de jogos online e cobrava certa quantia de outras
-            pessoas para poder jogar nesse servidores dos mais variados jogos
-            que tem "codigo aberto" na internet por exemplo: DDTank, Minecraft,
-            The War Z, Habbo, MU Online, FIVEM(GTA 5) entre outros não tão
+            pessoas para poder jogar nesse servidor dos mais variados jogos que
+            tem "código aberto" na internet, por exemplo: DDTank, Minecraft, The
+            War Z, Habbo, MU Online, FIVEM(GTA 5) entre outros não tão
             conhecidos.
           </p>
           <p>
-            Apartir dos 18 anos, Trabalhei como instrutor de informática,
+            A partir dos 18 anos, trabalhei como instrutor de informática,
             auxiliando e ensinando mais de 500 alunos durante 4 anos. Ensinei,
             Desenvolvimento de Games e Softwares entre outras tecnologias como
             Word e Excel.
           </p>
           <p>
             Costumo dizer que sou uma pessoa movido a desafios, eu preciso ser
-            desafiado e colocado em prova sempre que for possivel, tenho uma
+            desafiado e colocado em prova sempre que for possível, tenho uma
             motivação interna muito grande e uma cobrança por sempre dar o
-            maximo em tudo, isso veio do futebol, pois sou Brasileiro apaixonado
-            por futebol. Eu gosto de criar soluções complexas e que precisam de
-            alto nivel de concentração, isso me faz feliz me expoe a coisas
+            máximo em tudo, isso veio do futebol, pois sou brasileiro apaixonado
+            por futebol. Eu gosto de criar soluções complexas, que precisam de
+            alto nível de concentração, isso me faz feliz, me expõe a coisas
             novas, novas formas de pensar, reflexão. Sou muito colaborativo e
             amo trabalhar em equipe, durante o tempo que fui instrutor de
-            informatica, trabalhei com uma equipe que era super colaborativa e
+            informática, trabalhei com uma equipe que era super colaborativa e
             tinham senso de que o sucesso de todos ali era gerado através dos
             esforços conduzido em conjunto e esses esforços para ensinar as
-            pessoas da melhor maneira possivel e gerar interesse deles gerava
+            pessoas da melhor maneira possível e gerar interesse deles gerava
             ensinamento e felicidade na vida das pessoas, o poder da
-            transformação era muito grande e satisfátorio para todos. Hoje estou
+            transformação era muito grande e satisfatório para todos. Hoje estou
             em busca do meu sonho, que começou aos 7 anos e sei que posso
             contribuir muito para a equipe que me tiver como membro e me
             acolher.
