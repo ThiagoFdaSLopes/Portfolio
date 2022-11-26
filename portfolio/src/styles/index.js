@@ -301,7 +301,7 @@ export const ContainerSkills = styled.div`
     height: 35rem;
 
     .habilidades {
-      background-color: black;
+      background-color: white;
       border-radius: 24px;
       display: flex;
       flex-direction: column;
