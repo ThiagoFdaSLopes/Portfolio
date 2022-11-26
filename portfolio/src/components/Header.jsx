@@ -5,10 +5,10 @@ import NavBar from './NavBar';
 const HeaderHome = () => {
   return (
     <Header>
-      <Logo>{'< />'}</Logo>
+      <Logo>{'<TH />'}</Logo>
       <NavBar />
     </Header>
-  )
-}
+  );
+};
 
 export default HeaderHome;

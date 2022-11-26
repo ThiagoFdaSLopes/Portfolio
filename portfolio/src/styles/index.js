@@ -20,6 +20,7 @@ export const Logo = styled.p`
   font-family: 'League Spartan', sans-serif;
   font-size: 40px;
   font-weight: 700;
+  color: white;
   text-align: center;
   line-height: 55px;
   padding: 10px;
@@ -193,3 +194,95 @@ export const DivPhoto = styled.div`
     z-index: 4;
   }
 `;
+
+export const DivAbout = styled.div`
+  display: flex;
+  justify-content: center;
+  /* background-color: aliceblue; */
+  width: 100%;
+  height: 10rem;
+
+  .header-about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 5rem;
+    margin-top: 20px;
+    border-bottom: 5px solid white;
+
+    p {
+      font-size: 50px;
+      color: white;
+    }
+  }
+`;
+
+export const CardMe = styled.div`
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 80%;
+  margin-left: 12rem;
+  height: 45rem;
+  /* background-color: black; */
+
+  .photo-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 8rem;
+    width: 20rem;
+    height: 30rem;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    -webkit-box-shadow: 1px 1px 36px -4px white;
+    -moz-box-shadow: 1px 1px 36px -4px white;
+    box-shadow: 1px 1px 36px -4px white;
+
+    .photo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 85%;
+      height: 18rem;
+      margin-top: 20px;
+      border-radius: 20px;
+
+      img {
+        border-radius: 20px;
+        width: 17rem;
+        height: 17rem;
+      }
+    }
+
+    .frase-inspiradora {
+      text-align: center;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 300;
+    }
+  }
+  .description-me {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 60rem;
+    margin-left: 5rem;
+    height: 35rem;
+    border-radius: 2rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    -webkit-box-shadow: 1px 1px 36px -4px white;
+    -moz-box-shadow: 1px 1px 36px -4px white;
+    box-shadow: 1px 1px 36px -4px white;
+
+    p {
+      margin: 20px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 400;
+    }
+  }
+`;
+
