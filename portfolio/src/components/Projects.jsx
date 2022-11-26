@@ -1,5 +1,5 @@
 import React from 'react';
-import { DivAbout } from '../styles';
+import { ContainerProjects, DivAbout } from '../styles';
 
 const Projects = () => {
   return (
@@ -9,6 +9,7 @@ const Projects = () => {
           <p>Projects</p>
         </header>
       </DivAbout>
+      <ContainerProjects />
     </>
   );
 };

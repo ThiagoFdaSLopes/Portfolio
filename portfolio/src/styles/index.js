@@ -336,3 +336,13 @@ export const ContainerSkills = styled.div`
   }
 `;
 
+export const ContainerProjects = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-left: 12rem;
+  height: 45rem;
+`;
+
+
