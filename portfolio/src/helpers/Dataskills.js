@@ -1,26 +1,53 @@
+import css from './imgs/css.svg';
+import html from './imgs/html.svg';
+import javascript from './imgs/jss.svg';
+import jest from './imgs/jest.svg';
+import docker from './imgs/docker.svg';
+import mysql from './imgs/mysql.svg';
+import reacts from './imgs/reacts.svg';
+import git from './imgs/git.svg';
+import github from './imgs/git.svg';
+import nodejs from './imgs/nodejs.svg';
+
 export const DataSkills = [
   {
     name: 'Javascript',
-    imagem: '',
+    imagem: javascript,
   },
   {
     name: 'HTML',
-    imagem: '',
+    imagem: html,
   },
   {
     name: 'CSS',
-    imagem: '',
+    imagem: css,
   },
   {
     name: 'React',
-    imagem: '',
+    imagem: reacts,
   },
   {
     name: 'Docker',
-    imagem: '',
+    imagem: docker,
   },
   {
     name: 'MySQL',
-    imagem: '',
+    imagem: mysql,
+  },
+  {
+    name: 'GitHub',
+    imagem: github,
+  },
+  {
+    name: 'Git',
+    imagem: git,
+  },
+  {
+    name: 'Node-JS',
+    imagem: nodejs,
+  },
+  {
+    name: 'Jest',
+    imagem: jest,
   }
 ];
