@@ -310,7 +310,26 @@ export const ContainerSkills = styled.div`
       text-align: center;
       width: 12rem;
       height: 12rem;
+
+      img {
+        width: 80px;
+        height: 80px;
+      }
+
+      p {
+        font-size: 18px;
+        font-weight: 400;
+        font-family: 'League Spartan';
+      }
     }
+  }
+
+  .habilidades:hover {
+    -webkit-box-shadow: 1px 1px 36px -4px white;
+    -moz-box-shadow: 1px 1px 36px -4px white;
+    box-shadow: 1px 1px 36px -4px white;
+    border: 0.2rem solid white;
+    transform: scale(1.1);
   }
 `;
 

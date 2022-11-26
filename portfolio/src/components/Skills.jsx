@@ -1,5 +1,6 @@
 import React from 'react';
 import { ContainerSkills, DivAbout } from '../styles';
+import DataSkills from '../helpers/Dataskills';
 
 const Skills = () => {
   return (
@@ -11,16 +12,12 @@ const Skills = () => {
       </DivAbout>
       <ContainerSkills>
         <div className="skills">
-          <div className="habilidades"></div>
-          <div className="habilidades"></div>
-          <div className="habilidades"></div>
-          <div className="habilidades"></div>
-          <div className="habilidades"></div>
-          <div className="habilidades"></div>
-          <div className="habilidades"></div>
-          <div className="habilidades"></div>
-          <div className="habilidades"></div>
-          <div className="habilidades"></div>
+          {DataSkills.map(({ name, imagem }, index) => (
+            <div className="habilidades" key={index}>
+              <img src={imagem} alt="stack" />
+              <p>{name}</p>
+            </div>
+          ))}
         </div>
       </ContainerSkills>
     </>

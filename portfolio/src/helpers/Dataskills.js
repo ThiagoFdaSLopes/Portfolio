@@ -6,10 +6,10 @@ import docker from './imgs/docker.svg';
 import mysql from './imgs/mysql.svg';
 import reacts from './imgs/reacts.svg';
 import git from './imgs/git.svg';
-import github from './imgs/git.svg';
+import github from './imgs/github.svg';
 import nodejs from './imgs/nodejs.svg';
 
-export const DataSkills = [
+const DataSkills = [
   {
     name: 'Javascript',
     imagem: javascript,
@@ -51,3 +51,5 @@ export const DataSkills = [
     imagem: jest,
   }
 ];
+
+export default DataSkills;
