@@ -295,8 +295,11 @@ export const ContainerSkills = styled.div`
 
   .skills {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    gap: 3rem;
+    flex-direction: row;
+    gap: 2rem;
     width: 80%;
     height: 35rem;
 
