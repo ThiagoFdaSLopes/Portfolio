@@ -225,7 +225,7 @@ export const CardMe = styled.div`
   width: 80%;
   margin-left: 12rem;
   height: 45rem;
-  background-color: black;
+  /* background-color: black; */
 
   .photo-card {
     display: flex;
@@ -235,7 +235,10 @@ export const CardMe = styled.div`
     width: 20rem;
     height: 30rem;
     border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.8);
+    -webkit-box-shadow: 1px 1px 36px -4px white;
+    -moz-box-shadow: 1px 1px 36px -4px white;
+    box-shadow: 1px 1px 36px -4px white;
 
     .photo {
       display: flex;
@@ -262,11 +265,24 @@ export const CardMe = styled.div`
   }
   .description-me {
     display: flex;
+    justify-content: center;
+    flex-direction: column;
     width: 60rem;
     margin-left: 5rem;
     height: 35rem;
     border-radius: 2rem;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.8);
+    -webkit-box-shadow: 1px 1px 36px -4px white;
+    -moz-box-shadow: 1px 1px 36px -4px white;
+    box-shadow: 1px 1px 36px -4px white;
+
+    p {
+      margin: 20px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 400;
+    }
   }
 `;
 
