@@ -342,7 +342,7 @@ export const ContainerProjects = styled.div`
   align-items: center;
   width: 80%;
   margin-left: 12rem;
-  height: 45rem;
+  height: 25rem;
 `;
 
 
