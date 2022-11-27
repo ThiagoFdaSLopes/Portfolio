@@ -7,6 +7,7 @@ import github from './imgs/github.svg';
 import TrybeTunes from './imgsProjects/TrybeTunes.png';
 import TrybeWallet from './imgsProjects/TrybeWallet.png';
 import SecretWord from './imgsProjects/SecretWord.png';
+import PixelsArt from './imgsProjects/PixelsArt.png';
 
 const DataProjects = [
   {
@@ -44,8 +45,9 @@ const DataProjects = [
   },
   {
     name: 'Pixel Art',
-    description: '',
-    imagem: '',
+    description: 'Neste projeto, você vai implementar brincar de arte com pixels em que a pessoa usuária poderá escolher uma cor em uma paleta de cores e poderá pintar o que quiser em um quadro branco.',
+    imagem: PixelsArt,
+    link: 'https://pixel-arts-sage.vercel.app/',
     stacks: [javascript, html, css, git, github]
   },
   {
