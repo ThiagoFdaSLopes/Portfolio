@@ -36,8 +36,10 @@ const DataProjects = [
   },
   {
     name: 'Front-End Online Store',
-    description: '',
-    imagem: '',
+    description: 'Neste projeto foi uma versão simplificada, sem persistência no banco de dados, de uma loja online, desenvolvido em grupo suas funcionalidades de acordo com demandas definidas em um quadro Kanban. Estilização do projeto esta no inicio.',
+    imagem: 'Em construção',
+    link: 'https://projeto-front-end-online-store.vercel.app/',
+    github: 'https://github.com/ThiagoFdaSLopes/Projeto-Front-End-Online-Store',
     stacks: [javascript, reacts, html, css, git, github]
   },
   {
