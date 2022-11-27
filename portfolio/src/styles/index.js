@@ -276,10 +276,10 @@ export const CardMe = styled.div`
     box-shadow: 1px 1px 36px -4px white;
 
     p {
-      margin: 20px;
-      text-align: center;
+      margin: 14px;
+      text-align: justify;
       text-decoration: none;
-      font-size: 15px;
+      font-size: 17px;
       font-weight: 400;
     }
   }
@@ -310,7 +310,7 @@ export const ContainerSkills = styled.div`
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      text-align: center;
+      text-align: jusitfy;
       width: 12rem;
       height: 12rem;
 
