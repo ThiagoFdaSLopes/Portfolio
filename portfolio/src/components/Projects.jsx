@@ -1,5 +1,6 @@
 import React from 'react';
 import { ContainerProjects, DivAbout } from '../styles';
+import Carousel from '@itseasy21/react-elastic-carousel';
 
 const Projects = () => {
   return (
