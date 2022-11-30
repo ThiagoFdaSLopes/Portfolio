@@ -342,7 +342,79 @@ export const ContainerProjects = styled.div`
   align-items: center;
   width: 80%;
   margin-left: 12rem;
-  height: 25rem;
+  height: 55rem;
+`;
+
+export const DivProject = styled.div`
+  padding: 1rem;
+  border-radius: 5px;
+  color: black;
+  background-color: white;
+  width: 25rem;
+  height: 40rem;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+
+  .DivImage {
+    width: 100%;
+    height: 240px;
+    border-radius: 5px;
+    background-color: rgb(238, 238, 238);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+  }
+
+  .DivImage img {
+    width: 100%;
+    height: 240px;
+  }
+
+  .Divinfo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .div-links-project {
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .div-links-project img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .div-links-project a {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 5px;
+    color: rgb(0, 0, 0);
+  }
+
+  .div-stacks {
+    width: 20rem;
+    height: 2rem;
+  }
+
+  .div-stacks img {
+    width: 24px;
+    height: 24px;
+    margin: 3px;
+    padding: 3px;
+  }
 `;
 
 
