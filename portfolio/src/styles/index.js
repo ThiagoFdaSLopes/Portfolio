@@ -297,11 +297,10 @@ export const ContainerSkills = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 2rem;
-    width: 80%;
-    height: 35rem;
+    flex-flow: row wrap;
+    gap: 5rem;
+    width: 90%;
+    height: 30rem;
 
     .habilidades {
       background-color: white;
