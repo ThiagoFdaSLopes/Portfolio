@@ -276,10 +276,10 @@ export const CardMe = styled.div`
     box-shadow: 1px 1px 36px -4px white;
 
     p {
-      margin: 20px;
-      text-align: center;
+      margin: 14px;
+      text-align: justify;
       text-decoration: none;
-      font-size: 15px;
+      font-size: 17px;
       font-weight: 400;
     }
   }
@@ -297,11 +297,10 @@ export const ContainerSkills = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 2rem;
-    width: 80%;
-    height: 35rem;
+    flex-flow: row wrap;
+    gap: 5rem;
+    width: 90%;
+    height: 30rem;
 
     .habilidades {
       background-color: white;
@@ -310,7 +309,7 @@ export const ContainerSkills = styled.div`
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      text-align: center;
+      text-align: jusitfy;
       width: 12rem;
       height: 12rem;
 
@@ -335,4 +334,86 @@ export const ContainerSkills = styled.div`
     transform: scale(1.1);
   }
 `;
+
+export const ContainerProjects = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-left: 12rem;
+  height: 55rem;
+`;
+
+export const DivProject = styled.div`
+  padding: 1rem;
+  border-radius: 5px;
+  color: black;
+  background-color: white;
+  width: 25rem;
+  height: 40rem;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+
+  .DivImage {
+    width: 100%;
+    height: 240px;
+    border-radius: 5px;
+    background-color: rgb(238, 238, 238);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+  }
+
+  .DivImage img {
+    width: 100%;
+    height: 240px;
+  }
+
+  .Divinfo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .div-links-project {
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .div-links-project img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .div-links-project a {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 5px;
+    color: rgb(0, 0, 0);
+  }
+
+  .div-stacks {
+    width: 20rem;
+    height: 2rem;
+  }
+
+  .div-stacks img {
+    width: 24px;
+    height: 24px;
+    margin: 3px;
+    padding: 3px;
+  }
+`;
+
 
