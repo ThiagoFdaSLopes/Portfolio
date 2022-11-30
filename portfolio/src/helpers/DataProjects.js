@@ -8,6 +8,7 @@ import TrybeTunes from './imgsProjects/TrybeTunes.png';
 import TrybeWallet from './imgsProjects/TrybeWallet.png';
 import SecretWord from './imgsProjects/SecretWord.png';
 import PixelsArt from './imgsProjects/PixelsArt.png';
+import frontendonlinestore from './imgsProjects/frontendonlinestore.png';
 
 const DataProjects = [
   {
@@ -37,7 +38,7 @@ const DataProjects = [
   {
     name: 'Front-End Online Store',
     description: 'Neste projeto foi uma versão simplificada, sem persistência no banco de dados, de uma loja online, desenvolvido em grupo suas funcionalidades de acordo com demandas definidas em um quadro Kanban. Estilização do projeto esta no inicio.',
-    imagem: 'Em construção',
+    imagem: frontendonlinestore,
     link: 'https://projeto-front-end-online-store.vercel.app/',
     github: 'https://github.com/ThiagoFdaSLopes/Projeto-Front-End-Online-Store',
     stacks: [javascript, reacts, html, css, git, github]
