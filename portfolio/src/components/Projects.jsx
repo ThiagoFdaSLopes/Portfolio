@@ -5,7 +5,7 @@ import DataProjects from '../helpers/DataProjects';
 import link from '../assets/link.svg';
 import github from '../assets/github.png';
 
-const Projects = () => {
+const ProjectsBox = () => {
   return (
     <>
       <DivAbout>
@@ -54,4 +54,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default ProjectsBox;

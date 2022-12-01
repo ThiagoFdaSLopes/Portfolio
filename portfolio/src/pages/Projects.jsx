@@ -1,7 +1,10 @@
 import React from 'react';
+import ProjectsBox from '../components/Projects';
 
 const Projects = () => {
-  return <div>Projects</div>;
+  return (
+    <ProjectsBox />
+  )
 };
 
 export default Projects;

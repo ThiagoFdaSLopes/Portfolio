@@ -2,7 +2,7 @@ import React from 'react';
 import { ContainerSkills, DivAbout } from '../styles';
 import DataSkills from '../helpers/Dataskills';
 
-const Skills = () => {
+const SkillsBox = () => {
   return (
     <>
       <DivAbout>
@@ -24,4 +24,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default SkillsBox;

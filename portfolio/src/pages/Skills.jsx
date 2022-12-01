@@ -1,7 +1,10 @@
 import React from 'react';
+import SkillsBox from '../components/Skills';
 
 const Skills = () => {
-  return <div>oi</div>;
+  return (
+    <SkillsBox />
+  )
 };
 
 export default Skills;
