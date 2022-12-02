@@ -8,6 +8,7 @@ const NavBar = () => {
       <StyledLink to="/about">About-me</StyledLink>
       <StyledLink to="/skills">Skills</StyledLink>
       <StyledLink to="/projects">Projects</StyledLink>
+      <StyledLink to="/contact">Contact</StyledLink>
     </Nav>
   );
 };
