@@ -1,7 +1,14 @@
 import React from 'react';
+import SkillsBox from '../components/Skills';
+import HeaderHome from '../components/Header';
 
 const Skills = () => {
-  return <div>oi</div>;
+  return (
+    <>
+    <HeaderHome />
+    <SkillsBox />
+    </>
+  )
 };
 
 export default Skills;

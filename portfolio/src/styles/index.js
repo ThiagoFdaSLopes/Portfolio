@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 export const Header = styled.header`
@@ -36,7 +36,7 @@ export const Nav = styled.nav`
   height: 55px;
 `;
 
-export const StyledLink = styled(Link)`
+export const StyledLink = styled(NavLink)`
   font-family: 'League Spartan';
   font-style: normal;
   font-weight: 600;
