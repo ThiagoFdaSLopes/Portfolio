@@ -98,6 +98,7 @@ export const DivApresentacao = styled.div`
 
   .arrow-about {
     position: relative;
+    height: 64px;
     top: 290px;
     left: 310px;
   }
