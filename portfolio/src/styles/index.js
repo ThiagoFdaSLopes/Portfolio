@@ -225,7 +225,8 @@ export const CardMe = styled.div`
   width: 80%;
   margin-left: 12rem;
   height: 45rem;
-  /* background-color: black; */
+  background-color: white;
+  border-radius: 20px;
 
   .photo-card {
     display: flex;
@@ -234,11 +235,6 @@ export const CardMe = styled.div`
     margin-left: 8rem;
     width: 20rem;
     height: 30rem;
-    border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
-    -webkit-box-shadow: 1px 1px 36px -4px white;
-    -moz-box-shadow: 1px 1px 36px -4px white;
-    box-shadow: 1px 1px 36px -4px white;
 
     .photo {
       display: flex;
@@ -331,8 +327,8 @@ export const ContainerSkills = styled.div`
     -webkit-box-shadow: 1px 1px 36px -4px white;
     -moz-box-shadow: 1px 1px 36px -4px white;
     box-shadow: 1px 1px 36px -4px white;
-    border: 0.2rem solid white;
-    transform: scale(1.1);
+    border: 0.1rem solid orange;
+    transform: scale(1.5);
   }
 `;
 
