@@ -6,16 +6,16 @@ const AboutMe = () => {
   return (
     <>
       <DivAbout>
-        <header className="header-about">
+        <header className="header-about" id="about-me">
           <p>About-Me</p>
         </header>
       </DivAbout>
       <CardMe>
         <div className="photo-card">
-          <div className="photo">
+          <div className="photo" >
             <img src={thiago} alt="foto do thiago perfil" />
           </div>
-          <p className="frase-inspiradora">
+          <p className="frase-inspiradora" >
             Seja você quem for, seja qual for a posição social que você tenha na
             vida, a mais alta ou a mais baixa, tenha sempre como meta muita
             força, muita determinação e sempre faça tudo com muito amor e com

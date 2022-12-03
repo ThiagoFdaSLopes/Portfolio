@@ -5,10 +5,10 @@ import HeaderHome from '../components/Header';
 const Skills = () => {
   return (
     <>
-    <HeaderHome />
-    <SkillsBox />
+      <HeaderHome />
+      <SkillsBox />
     </>
-  )
+  );
 };
 
 export default Skills;

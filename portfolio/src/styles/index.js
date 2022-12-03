@@ -98,6 +98,7 @@ export const DivApresentacao = styled.div`
 
   .arrow-about {
     position: relative;
+    height: 64px;
     top: 290px;
     left: 310px;
   }
@@ -199,7 +200,7 @@ export const DivAbout = styled.div`
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 10rem;
+  height: 8rem;
 
   .header-about {
     display: flex;
@@ -224,7 +225,8 @@ export const CardMe = styled.div`
   width: 80%;
   margin-left: 12rem;
   height: 45rem;
-  /* background-color: black; */
+  background-color: white;
+  border-radius: 20px;
 
   .photo-card {
     display: flex;
@@ -233,11 +235,6 @@ export const CardMe = styled.div`
     margin-left: 8rem;
     width: 20rem;
     height: 30rem;
-    border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
-    -webkit-box-shadow: 1px 1px 36px -4px white;
-    -moz-box-shadow: 1px 1px 36px -4px white;
-    box-shadow: 1px 1px 36px -4px white;
 
     .photo {
       display: flex;
@@ -330,8 +327,8 @@ export const ContainerSkills = styled.div`
     -webkit-box-shadow: 1px 1px 36px -4px white;
     -moz-box-shadow: 1px 1px 36px -4px white;
     box-shadow: 1px 1px 36px -4px white;
-    border: 0.2rem solid white;
-    transform: scale(1.1);
+    border: 0.1rem solid orange;
+    transform: scale(1.5);
   }
 `;
 
@@ -416,4 +413,31 @@ export const DivProject = styled.div`
   }
 `;
 
+export const DivContact = styled.div`
+  width: 80%;
+  height: 15rem;
+  margin-left: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 
+  p {
+    color: White;
+    font-size: 26px;
+    font-weight: 700;
+  }
+
+  div {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 3rem;
+  }
+
+  img {
+    width: 48px;
+    height: 48px;
+    margin: 1rem;
+  }
+`;
