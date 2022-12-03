@@ -199,7 +199,7 @@ export const DivAbout = styled.div`
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 10rem;
+  height: 8rem;
 
   .header-about {
     display: flex;
@@ -416,4 +416,31 @@ export const DivProject = styled.div`
   }
 `;
 
+export const DivContact = styled.div`
+  width: 80%;
+  height: 15rem;
+  margin-left: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 
+  p {
+    color: White;
+    font-size: 26px;
+    font-weight: 700;
+  }
+
+  div {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 3rem;
+  }
+
+  img {
+    width: 48px;
+    height: 48px;
+    margin: 1rem;
+  }
+`;
