@@ -95,7 +95,7 @@ export const Main = styled.main`
   }
 
   @media screen and (max-width: 375px) {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     height: 36rem;
   }
@@ -448,6 +448,14 @@ export const CardMe = styled.div`
     margin-left: 6rem;
   }
 
+  @media screen and (max-width: 375px) {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 20rem;
+    height: 60rem;
+  }
+
   .photo-card {
     display: flex;
     align-items: center;
@@ -465,6 +473,12 @@ export const CardMe = styled.div`
       margin-left: 5rem;
     }
 
+    @media screen and (max-width: 375px) {
+      width: 10rem;
+      height: 12rem;
+      margin-left: 0;
+    }
+
     .photo {
       display: flex;
       align-items: center;
@@ -474,10 +488,20 @@ export const CardMe = styled.div`
       margin-top: 20px;
       border-radius: 20px;
 
+      @media screen and (max-width: 375px) {
+        width: 10rem;
+        height: 10rem;
+      }
+
       img {
         border-radius: 20px;
         width: 17rem;
         height: 17rem;
+
+        @media screen and (max-width: 375px) {
+          width: 10rem;
+          height: 10rem;
+        }
       }
     }
 
@@ -486,6 +510,10 @@ export const CardMe = styled.div`
       text-decoration: none;
       font-size: 14px;
       font-weight: 300;
+
+      @media screen and (max-width: 375px) {
+        display: none;
+      }
     }
   }
   .description-me {
@@ -500,6 +528,12 @@ export const CardMe = styled.div`
     -webkit-box-shadow: 1px 1px 36px -4px white;
     -moz-box-shadow: 1px 1px 36px -4px white;
     box-shadow: 1px 1px 36px -4px white;
+
+    @media screen and (max-width: 375px) {
+      width: 20rem;
+      height: 50rem;
+      margin-left: 0;
+    }
 
     p {
       margin: 14px;
