@@ -438,6 +438,11 @@ export const ContainerProjects = styled.div`
   width: 80%;
   margin-left: 12rem;
   height: 55rem;
+
+  @media (max-width: 1440px) {
+    width: 63rem;
+    height: 50rem;
+  }
 `;
 
 export const DivProject = styled.div`
@@ -450,6 +455,11 @@ export const DivProject = styled.div`
   display: flex;
   flex-flow: row wrap;
   gap: 1rem;
+
+  @media (max-width: 1440px) {
+    width: 25rem;
+    height: 30rem;
+  }
 
   .DivImage {
     width: 100%;
@@ -464,17 +474,28 @@ export const DivProject = styled.div`
     align-items: center;
     -webkit-box-pack: center;
     justify-content: center;
+
+    @media (max-width: 1440px) {
+      height: 200px;
+    }
   }
 
   .DivImage img {
     width: 100%;
     height: 240px;
+    @media (max-width: 1440px) {
+      height: 200px;
+    }
   }
 
   .Divinfo {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    @media (max-width: 1440px) {
+      gap: 1px;
+      font-size: 12px;
+    }
   }
 
   .div-links-project {
@@ -484,6 +505,9 @@ export const DivProject = styled.div`
     -webkit-box-align: center;
     align-items: center;
     gap: 10px;
+    @media (max-width: 1440px) {
+      font-size: 10px;
+    }
   }
 
   .div-links-project img {
