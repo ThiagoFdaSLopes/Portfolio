@@ -514,6 +514,12 @@ export const ContainerProjects = styled.div`
     width: 63rem;
     height: 50rem;
   }
+
+  @media screen and (max-width: 1024px) {
+    font-size: 15px;
+    margin-left: 3rem;
+    width: 56rem;
+  }
 `;
 
 export const DivProject = styled.div`
@@ -530,6 +536,12 @@ export const DivProject = styled.div`
   @media screen and (max-width: 1440px) {
     width: 25rem;
     height: 30rem;
+  }
+
+  @media screen and (max-width: 1024px) {
+    font-size: 15px;
+    margin-left: 3rem;
+    width: 56rem;
   }
 
   .DivImage {
@@ -549,12 +561,20 @@ export const DivProject = styled.div`
     @media screen and (max-width: 1440px) {
       height: 200px;
     }
+
+    @media screen and (max-width: 1024px) {
+      height: 200px;
+    }
   }
 
   .DivImage img {
     width: 100%;
     height: 240px;
     @media screen and (max-width: 1440px) {
+      height: 200px;
+    }
+
+    @media screen and (max-width: 1024px) {
       height: 200px;
     }
   }
@@ -564,6 +584,11 @@ export const DivProject = styled.div`
     flex-direction: column;
     gap: 10px;
     @media screen and (max-width: 1440px) {
+      gap: 1px;
+      font-size: 12px;
+    }
+
+    @media screen and (max-width: 1024px) {
       gap: 1px;
       font-size: 12px;
     }
@@ -578,6 +603,9 @@ export const DivProject = styled.div`
     gap: 10px;
     @media screen and (max-width: 1440px) {
       font-size: 10px;
+    }
+    @media screen and (max-width: 1024px) {
+      font-size: 8px;
     }
   }
 
@@ -619,6 +647,11 @@ export const DivContact = styled.div`
   @media screen and (max-width: 1440px) {
     width: 63rem;
     height: 15rem;
+  }
+
+  @media screen and (max-width: 1024px) {
+    width: 55rem;
+    margin-left: 5.5rem;
   }
 
   p {
