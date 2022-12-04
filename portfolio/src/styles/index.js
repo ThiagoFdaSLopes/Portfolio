@@ -12,6 +12,14 @@ export const Header = styled.header`
   margin-right: 110px;
   border-radius: 10px;
   background-color: #403DF3;
+
+  @media screen and (max-width: 1440px) {
+    width: 85vw;
+  }
+
+  @media screen and (max-width: 1024px) {
+    width: 80vw;
+  }
 `;
 
 export const Logo = styled.p`
@@ -24,6 +32,10 @@ export const Logo = styled.p`
   text-align: center;
   line-height: 55px;
   padding: 10px;
+
+  @media screen and (max-width: 1024px) {
+    font-size: 30px;
+  }
 `;
 
 export const Nav = styled.nav`
@@ -34,6 +46,10 @@ export const Nav = styled.nav`
   width: 35%;
   border-radius: 15px;
   height: 55px;
+
+  @media screen and (max-width: 1024px) {
+    width: 45%;
+  }
 `;
 
 export const StyledLink = styled(NavLink)`
@@ -45,7 +61,7 @@ export const StyledLink = styled(NavLink)`
   color: white;
   text-decoration: none;
 
-  @media (max-width: 1440px) {
+  @media screen and (max-width: 1440px) {
     font-size: 16px;
   }
 `;
@@ -62,6 +78,11 @@ export const SectionInfo = styled.section`
   margin-left: 10rem;
   width: 45rem;
   height: 52rem;
+  
+  @media screen and (max-width: 1024px) {
+    margin-left: 5rem;
+    width: 55rem;
+  }
 `;
 
 export const SectionPhoto = styled.section`
@@ -70,6 +91,10 @@ export const SectionPhoto = styled.section`
   align-items: center;
   width: 55rem;
   height: 52rem;
+
+  @media screen and (max-width: 1024px) {
+    width: 30rem;
+  }
 `;
 
 export const DivApresentacao = styled.div`
@@ -90,9 +115,12 @@ export const DivApresentacao = styled.div`
     font-size: 38px;
     color: white;
 
-    @media (max-width: 1440px) {
-    /* background-color: aliceblue; */
-    font-size: 32px;
+    @media screen and (max-width: 1024px) {
+      width: 100%;
+    }
+
+    @media screen and (max-width: 1440px) {
+      font-size: 32px;
     }
   }
   .stack {
@@ -103,7 +131,7 @@ export const DivApresentacao = styled.div`
     font-size: 72px;
     color: white;
 
-    @media (max-width: 1440px) {
+    @media screen and (max-width: 1440px) {
     font-size: 32px;
     }
   }
@@ -113,9 +141,14 @@ export const DivApresentacao = styled.div`
     height: 64px;
     top: 290px;
     left: 310px;
+
+    @media screen and (max-width: 1024px) {
+      top: 200px;
+      left: 230px;
+    }
   }
 
-  @media (max-width: 1440px) {
+  @media screen and (max-width: 1440px) {
     width: 60%;
   }
 `;
@@ -130,7 +163,7 @@ export const DivSaudacao = styled.div`
   border-radius: 25px;
   background-color: white;
 
-  @media (max-width: 1440px) {
+  @media screen and (max-width: 1440px) {
     width: 10rem;
   }
 
@@ -138,7 +171,7 @@ export const DivSaudacao = styled.div`
     width: 32px;
     margin-right: 10px;
 
-    @media (max-width: 1440px) {
+    @media screen and (max-width: 1440px) {
     width: 24px;
     }
   }
@@ -148,7 +181,7 @@ export const DivSaudacao = styled.div`
     font-size: 24px;
     font-weight: 700;
 
-    @media (max-width: 1440px) {
+    @media screen and (max-width: 1440px) {
       font-size: 16px;
     }
   }
@@ -165,7 +198,7 @@ export const DivLinks = styled.div`
   .github {
     width: 52px;
 
-    @media (max-width: 1440px) {
+    @media screen and (max-width: 1440px) {
     width: 28px;
     }
   }
@@ -174,7 +207,7 @@ export const DivLinks = styled.div`
     margin-right: 8px;
     width: 48px;
 
-    @media (max-width: 1440px) {
+    @media screen and (max-width: 1440px) {
       width: 28px;
     }
   }
@@ -191,13 +224,13 @@ export const Circle = styled.div`
   box-shadow: 1px 1px 36px -4px white;
   z-index: 1;
 
-  @media (max-width: 1440px) {
+  @media screen and (max-width: 1440px) {
     width: 23rem;
     height: 23rem;
   }
 
   img {
-    @media (max-width: 1440px) {
+    @media screen and (max-width: 1440px) {
     width: 23rem;
     height: 23rem;
   }
@@ -222,7 +255,7 @@ export const DivPhoto = styled.div`
     height: 20px;
     z-index: 2;
 
-    @media (max-width: 1440px) {
+    @media screen and (max-width: 1440px) {
       left: 125px;
     }
   }
@@ -235,7 +268,7 @@ export const DivPhoto = styled.div`
     width: 20px;
     height: 20px;
     z-index: 3;
-    @media (max-width: 1440px) {
+    @media screen and (max-width: 1440px) {
       left: 135px;
     }
   }
@@ -248,7 +281,7 @@ export const DivPhoto = styled.div`
     width: 20px;
     height: 20px;
     z-index: 4;
-    @media (max-width: 1440px) {
+    @media screen and (max-width: 1440px) {
       left: 140px;
     }
   }
@@ -269,14 +302,14 @@ export const DivAbout = styled.div`
     margin-top: 20px;
     border-bottom: 5px solid white;
 
-    @media (max-width: 1440px) {
+    @media screen and (max-width: 1440px) {
       border-bottom: 2.5px solid white;
     }
 
     p {
       font-size: 50px;
       color: white;
-      @media (max-width: 1440px) {
+      @media screen and (max-width: 1440px) {
         font-size: 35px;
       }
     }
@@ -293,7 +326,7 @@ export const CardMe = styled.div`
   background-color: white;
   border-radius: 20px;
 
-  @media (max-width: 1440px) {
+  @media screen and (max-width: 1440px) {
     width: 63.3rem;
     height: 40rem;
   }
@@ -306,7 +339,7 @@ export const CardMe = styled.div`
     width: 20rem;
     height: 30rem;
 
-    @media (max-width: 1440px) {
+    @media screen and (max-width: 1440px) {
       width: 10rem;
     }
 
@@ -352,7 +385,7 @@ export const CardMe = styled.div`
       text-decoration: none;
       font-size: 17px;
       font-weight: 400;
-      @media (max-width: 1440px) {
+      @media screen and (max-width: 1440px) {
         font-size: 14px;
       }
     }
@@ -367,7 +400,7 @@ export const ContainerSkills = styled.div`
   margin-left: 12rem;
   height: 45rem;
 
-  @media (max-width: 1440px) {
+  @media screen and (max-width: 1440px) {
     width: 63rem;
     height: 25rem;
   }
@@ -381,7 +414,7 @@ export const ContainerSkills = styled.div`
     width: 90%;
     height: 30rem;
 
-    @media (max-width: 1440px) {
+    @media screen and (max-width: 1440px) {
       width: 63rem;
       height: 25rem;
     }
@@ -396,7 +429,7 @@ export const ContainerSkills = styled.div`
       width: 12rem;
       height: 12rem;
 
-      @media (max-width: 1440px) {
+      @media screen and (max-width: 1440px) {
         width: 8rem;
         height: 8rem;
       }
@@ -404,7 +437,7 @@ export const ContainerSkills = styled.div`
       img {
         width: 80px;
         height: 80px;
-        @media (max-width: 1440px) {
+        @media screen and (max-width: 1440px) {
           width: 3rem;
           height: 3rem;
         }
@@ -425,7 +458,7 @@ export const ContainerSkills = styled.div`
     border: 0.1rem solid orange;
     transform: scale(1.5);
 
-    @media (max-width: 1440px) {
+    @media screen and (max-width: 1440px) {
       transform: scale(1.2);
     }
   }
@@ -439,7 +472,7 @@ export const ContainerProjects = styled.div`
   margin-left: 12rem;
   height: 55rem;
 
-  @media (max-width: 1440px) {
+  @media screen and (max-width: 1440px) {
     width: 63rem;
     height: 50rem;
   }
@@ -456,7 +489,7 @@ export const DivProject = styled.div`
   flex-flow: row wrap;
   gap: 1rem;
 
-  @media (max-width: 1440px) {
+  @media screen and (max-width: 1440px) {
     width: 25rem;
     height: 30rem;
   }
@@ -475,7 +508,7 @@ export const DivProject = styled.div`
     -webkit-box-pack: center;
     justify-content: center;
 
-    @media (max-width: 1440px) {
+    @media screen and (max-width: 1440px) {
       height: 200px;
     }
   }
@@ -483,7 +516,7 @@ export const DivProject = styled.div`
   .DivImage img {
     width: 100%;
     height: 240px;
-    @media (max-width: 1440px) {
+    @media screen and (max-width: 1440px) {
       height: 200px;
     }
   }
@@ -492,7 +525,7 @@ export const DivProject = styled.div`
     display: flex;
     flex-direction: column;
     gap: 10px;
-    @media (max-width: 1440px) {
+    @media screen and (max-width: 1440px) {
       gap: 1px;
       font-size: 12px;
     }
@@ -505,7 +538,7 @@ export const DivProject = styled.div`
     -webkit-box-align: center;
     align-items: center;
     gap: 10px;
-    @media (max-width: 1440px) {
+    @media screen and (max-width: 1440px) {
       font-size: 10px;
     }
   }
@@ -545,7 +578,7 @@ export const DivContact = styled.div`
   justify-content: center;
   flex-direction: column;
 
-  @media (max-width: 1440px) {
+  @media screen and (max-width: 1440px) {
     width: 63rem;
     height: 15rem;
   }
