@@ -331,6 +331,12 @@ export const CardMe = styled.div`
     height: 40rem;
   }
 
+  @media screen and (max-width: 1024px) {
+    width: 51rem;
+    height: 40rem;
+    margin-left: 6rem;
+  }
+
   .photo-card {
     display: flex;
     align-items: center;
@@ -341,6 +347,11 @@ export const CardMe = styled.div`
 
     @media screen and (max-width: 1440px) {
       width: 10rem;
+    }
+
+    @media screen and (max-width: 1024px) {
+      width: 10rem;
+      margin-left: 5rem;
     }
 
     .photo {
@@ -385,8 +396,13 @@ export const CardMe = styled.div`
       text-decoration: none;
       font-size: 17px;
       font-weight: 400;
+
       @media screen and (max-width: 1440px) {
         font-size: 14px;
+      }
+
+      @media screen and (max-width: 1024px) {
+        font-size: 12px;
       }
     }
   }
@@ -405,6 +421,11 @@ export const ContainerSkills = styled.div`
     height: 25rem;
   }
 
+  @media screen and (max-width: 1024px) {
+      margin-left: 4rem;
+      width: 55rem;
+  }
+
   .skills {
     display: flex;
     justify-content: center;
@@ -419,6 +440,9 @@ export const ContainerSkills = styled.div`
       height: 25rem;
     }
 
+    @media screen and (max-width: 1024px) {
+      width: 55rem;
+    }
     .habilidades {
       background-color: white;
       border-radius: 24px;
@@ -434,6 +458,11 @@ export const ContainerSkills = styled.div`
         height: 8rem;
       }
 
+      @media screen and (max-width: 1024px) {
+        width: 6rem;
+        height: 6rem;
+      }
+
       img {
         width: 80px;
         height: 80px;
@@ -441,12 +470,21 @@ export const ContainerSkills = styled.div`
           width: 3rem;
           height: 3rem;
         }
+
+        @media screen and (max-width: 1024px) {
+          width: 2.5rem;
+          height: 2.5rem;
+        }
       }
 
       p {
         font-size: 18px;
         font-weight: 400;
         font-family: 'League Spartan';
+
+        @media screen and (max-width: 1024px) {
+          font-size: 15px;
+        }
       }
     }
   }
