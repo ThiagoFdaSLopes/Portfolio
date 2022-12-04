@@ -93,6 +93,12 @@ export const Main = styled.main`
   @media screen and (max-width: 1024px) {
     height: 44rem;
   }
+
+  @media screen and (max-width: 375px) {
+    flex-direction: column;
+    align-items: center;
+    height: 36rem;
+  }
 `;
 
 export const SectionInfo = styled.section`
@@ -106,18 +112,30 @@ export const SectionInfo = styled.section`
     margin-left: 5rem;
     width: 55rem;
   }
+
+  @media screen and (max-width: 375px) {
+    margin-left: 0;
+    width: 20rem;
+    height: 20rem;
+  }
 `;
 
 export const SectionPhoto = styled.section`
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   margin-top: 8rem;
   width: 55rem;
   height: 52rem;
 
   @media screen and (max-width: 1024px) {
     width: 30rem;
+  }
+
+  @media screen and (max-width: 375px) {
+    margin-top: 0;
+    justify-content: center;
+    width: 20rem;
+    height: 15rem;
   }
 `;
 
@@ -131,6 +149,17 @@ export const DivApresentacao = styled.div`
   margin-top: 13rem;
   margin-left: 6rem;
 
+  @media screen and (max-width: 1440px) {
+    width: 60%;
+  }
+
+  @media screen and (max-width: 375px) {
+    height: 15rem;
+    width: 20rem;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
   .name {
     font-family: 'League Spartan';
     margin: 10px;
@@ -139,12 +168,12 @@ export const DivApresentacao = styled.div`
     font-size: 38px;
     color: white;
 
-    @media screen and (max-width: 1024px) {
-      width: 100%;
-    }
-
     @media screen and (max-width: 1440px) {
       font-size: 32px;
+    }
+
+    @media screen and (max-width: 1024px) {
+      font-size: 28px;
     }
   }
   .stack {
@@ -156,7 +185,7 @@ export const DivApresentacao = styled.div`
     color: white;
 
     @media screen and (max-width: 1440px) {
-    font-size: 32px;
+      font-size: 32px;
     }
   }
 
@@ -175,10 +204,10 @@ export const DivApresentacao = styled.div`
       top: 200px;
       left: 230px;
     }
-  }
 
-  @media screen and (max-width: 1440px) {
-    width: 60%;
+    @media screen and (max-width: 1024px) {
+      display: none;
+    }
   }
 `;
 
@@ -201,7 +230,7 @@ export const DivSaudacao = styled.div`
     margin-right: 10px;
 
     @media screen and (max-width: 1440px) {
-    width: 24px;
+      width: 24px;
     }
   }
 
@@ -263,6 +292,11 @@ export const Circle = styled.div`
     height: 18rem;
   }
 
+  @media screen and (max-width: 375px) {
+    width: 12rem;
+    height: 12rem;
+  }
+
   img {
     @media screen and (max-width: 1440px) {
       width: 23rem;
@@ -271,6 +305,11 @@ export const Circle = styled.div`
     @media screen and (max-width: 1024px) {
       width: 18rem;
       height: 18rem;
+    }
+
+    @media screen and (max-width: 375px) {
+      width: 12rem;
+      height: 12rem;
     }
   }
 `;
@@ -281,7 +320,11 @@ export const DivPhoto = styled.div`
   justify-content: center;
   width: 35rem;
   height: 35rem;
-  /* background-color: beige; */
+
+  @media screen and (max-width: 375px) {
+    height: 15rem;
+    width: 20rem;
+  }
 
   .react {
     position: relative;
@@ -301,6 +344,11 @@ export const DivPhoto = styled.div`
       left: 123px;
       bottom: 100px;
     }
+
+    @media screen and (max-width: 375px) {
+      left: 75px;
+      bottom: 80px;
+    }
   }
 
   .javascript {
@@ -319,6 +367,11 @@ export const DivPhoto = styled.div`
       left: 123px;
       bottom: 70px;
     }
+
+    @media screen and (max-width: 375px) {
+      left: 80px;
+      bottom: 50px;
+    }
   }
 
   .nodejs {
@@ -336,6 +389,11 @@ export const DivPhoto = styled.div`
     @media screen and (max-width: 1024px) {
       left: 115px;
       bottom: 35px;
+    }
+
+    @media screen and (max-width: 375px) {
+      left: 70px;
+      bottom: 12px;
     }
   }
 `;
