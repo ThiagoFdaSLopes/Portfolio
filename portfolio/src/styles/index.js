@@ -20,6 +20,11 @@ export const Header = styled.header`
   @media screen and (max-width: 1024px) {
     width: 80vw;
   }
+
+  @media screen and (max-width: 375px) {
+    width: 82vw;
+    margin-left: 30px;
+  }
 `;
 
 export const Logo = styled.p`
@@ -36,6 +41,10 @@ export const Logo = styled.p`
   @media screen and (max-width: 1024px) {
     font-size: 30px;
   }
+
+  @media screen and (max-width: 375px) {
+    display: none;
+  }
 `;
 
 export const Nav = styled.nav`
@@ -50,6 +59,11 @@ export const Nav = styled.nav`
   @media screen and (max-width: 1024px) {
     width: 45%;
   }
+
+  @media screen and (max-width: 375px) {
+    margin-left: 1rem;
+    width: 100%;
+  }
 `;
 
 export const StyledLink = styled(NavLink)`
@@ -63,6 +77,11 @@ export const StyledLink = styled(NavLink)`
 
   @media screen and (max-width: 1440px) {
     font-size: 16px;
+  }
+
+  @media screen and (max-width: 375px) {
+    font-size: 14px;
+    margin-right: 8px;
   }
 `;
 
