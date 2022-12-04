@@ -545,6 +545,11 @@ export const DivContact = styled.div`
   justify-content: center;
   flex-direction: column;
 
+  @media (max-width: 1440px) {
+    width: 63rem;
+    height: 15rem;
+  }
+
   p {
     color: White;
     font-size: 26px;
