@@ -567,8 +567,14 @@ export const ContainerSkills = styled.div`
   }
 
   @media screen and (max-width: 1024px) {
-      margin-left: 4rem;
-      width: 55rem;
+    margin-left: 4rem;
+    width: 55rem;
+  }
+
+  @media screen and (max-width: 375px) {
+    margin-left: 1.2rem;
+    width: 20rem;
+    height: 40rem;
   }
 
   .skills {
@@ -587,6 +593,12 @@ export const ContainerSkills = styled.div`
 
     @media screen and (max-width: 1024px) {
       width: 55rem;
+    }
+
+    @media screen and (max-width: 375px) {
+      width: 20rem;
+      height: 40rem;
+      gap: 2rem;
     }
     .habilidades {
       background-color: white;
