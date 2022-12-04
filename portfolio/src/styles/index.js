@@ -229,11 +229,20 @@ export const Circle = styled.div`
     height: 23rem;
   }
 
+  @media screen and (max-width: 1024px) {
+    width: 18rem;
+    height: 18rem;
+  }
+
   img {
     @media screen and (max-width: 1440px) {
-    width: 23rem;
-    height: 23rem;
-  }
+      width: 23rem;
+      height: 23rem;
+    }
+    @media screen and (max-width: 1024px) {
+      width: 18rem;
+      height: 18rem;
+    }
   }
 `;
 
@@ -258,6 +267,11 @@ export const DivPhoto = styled.div`
     @media screen and (max-width: 1440px) {
       left: 125px;
     }
+
+    @media screen and (max-width: 1024px) {
+      left: 123px;
+      bottom: 100px;
+    }
   }
 
   .javascript {
@@ -271,6 +285,11 @@ export const DivPhoto = styled.div`
     @media screen and (max-width: 1440px) {
       left: 135px;
     }
+
+    @media screen and (max-width: 1024px) {
+      left: 123px;
+      bottom: 70px;
+    }
   }
 
   .nodejs {
@@ -283,6 +302,11 @@ export const DivPhoto = styled.div`
     z-index: 4;
     @media screen and (max-width: 1440px) {
       left: 140px;
+    }
+
+    @media screen and (max-width: 1024px) {
+      left: 115px;
+      bottom: 35px;
     }
   }
 `;
