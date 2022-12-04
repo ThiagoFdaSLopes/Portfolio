@@ -44,6 +44,10 @@ export const StyledLink = styled(NavLink)`
   font-size: 24px;
   color: white;
   text-decoration: none;
+
+  @media (max-width: 1440px) {
+    font-size: 16px;
+  }
 `;
 
 export const Main = styled.main`
@@ -77,7 +81,6 @@ export const DivApresentacao = styled.div`
   height: 20rem;
   margin-top: 13rem;
   margin-left: 6rem;
-  /* background-color: blue; */
 
   .name {
     font-family: 'League Spartan';
@@ -86,6 +89,11 @@ export const DivApresentacao = styled.div`
     font-weight: 600;
     font-size: 38px;
     color: white;
+
+    @media (max-width: 1440px) {
+    /* background-color: aliceblue; */
+    font-size: 32px;
+    }
   }
   .stack {
     font-family: 'League Spartan';
@@ -94,6 +102,10 @@ export const DivApresentacao = styled.div`
     font-weight: 600;
     font-size: 72px;
     color: white;
+
+    @media (max-width: 1440px) {
+    font-size: 32px;
+    }
   }
 
   .arrow-about {
@@ -101,6 +113,10 @@ export const DivApresentacao = styled.div`
     height: 64px;
     top: 290px;
     left: 310px;
+  }
+
+  @media (max-width: 1440px) {
+    width: 60%;
   }
 `;
 
@@ -114,15 +130,27 @@ export const DivSaudacao = styled.div`
   border-radius: 25px;
   background-color: white;
 
+  @media (max-width: 1440px) {
+    width: 10rem;
+  }
+
   img {
     width: 32px;
     margin-right: 10px;
+
+    @media (max-width: 1440px) {
+    width: 24px;
+    }
   }
 
   p {
     font-family: 'League Spartan';
     font-size: 24px;
     font-weight: 700;
+
+    @media (max-width: 1440px) {
+      font-size: 16px;
+    }
   }
 `;
 
@@ -136,11 +164,19 @@ export const DivLinks = styled.div`
 
   .github {
     width: 52px;
+
+    @media (max-width: 1440px) {
+    width: 28px;
+    }
   }
 
   .linkedin {
     margin-right: 8px;
     width: 48px;
+
+    @media (max-width: 1440px) {
+      width: 28px;
+    }
   }
 `;
 
@@ -154,6 +190,18 @@ export const Circle = styled.div`
   -moz-box-shadow: 1px 1px 36px -4px white;
   box-shadow: 1px 1px 36px -4px white;
   z-index: 1;
+
+  @media (max-width: 1440px) {
+    width: 23rem;
+    height: 23rem;
+  }
+
+  img {
+    @media (max-width: 1440px) {
+    width: 23rem;
+    height: 23rem;
+  }
+  }
 `;
 
 export const DivPhoto = styled.div`
@@ -173,6 +221,10 @@ export const DivPhoto = styled.div`
     width: 20px;
     height: 20px;
     z-index: 2;
+
+    @media (max-width: 1440px) {
+      left: 125px;
+    }
   }
 
   .javascript {
@@ -183,6 +235,9 @@ export const DivPhoto = styled.div`
     width: 20px;
     height: 20px;
     z-index: 3;
+    @media (max-width: 1440px) {
+      left: 135px;
+    }
   }
 
   .nodejs {
@@ -193,6 +248,9 @@ export const DivPhoto = styled.div`
     width: 20px;
     height: 20px;
     z-index: 4;
+    @media (max-width: 1440px) {
+      left: 140px;
+    }
   }
 `;
 
