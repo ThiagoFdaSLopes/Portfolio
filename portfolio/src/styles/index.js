@@ -88,7 +88,8 @@ export const SectionInfo = styled.section`
 export const SectionPhoto = styled.section`
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
+  margin-top: 8rem;
   width: 55rem;
   height: 52rem;
 
