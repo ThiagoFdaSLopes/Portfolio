@@ -147,6 +147,11 @@ export const DivApresentacao = styled.div`
     top: 290px;
     left: 310px;
 
+    @media screen and (max-width: 1440px) {
+      top: 200px;
+      left: 230px;
+    }
+
     @media screen and (max-width: 1024px) {
       top: 200px;
       left: 230px;
@@ -356,7 +361,7 @@ export const CardMe = styled.div`
   border-radius: 20px;
 
   @media screen and (max-width: 1440px) {
-    width: 63.3rem;
+    width: 65rem;
     height: 40rem;
   }
 
@@ -446,7 +451,7 @@ export const ContainerSkills = styled.div`
   height: 45rem;
 
   @media screen and (max-width: 1440px) {
-    width: 63rem;
+    width: 65rem;
     height: 25rem;
   }
 
@@ -465,7 +470,7 @@ export const ContainerSkills = styled.div`
     height: 30rem;
 
     @media screen and (max-width: 1440px) {
-      width: 63rem;
+      width: 65rem;
       height: 25rem;
     }
 
