@@ -367,6 +367,11 @@ export const ContainerSkills = styled.div`
   margin-left: 12rem;
   height: 45rem;
 
+  @media (max-width: 1440px) {
+    width: 63rem;
+    height: 25rem;
+  }
+
   .skills {
     display: flex;
     justify-content: center;
@@ -376,6 +381,11 @@ export const ContainerSkills = styled.div`
     width: 90%;
     height: 30rem;
 
+    @media (max-width: 1440px) {
+      width: 63rem;
+      height: 25rem;
+    }
+
     .habilidades {
       background-color: white;
       border-radius: 24px;
@@ -383,13 +393,21 @@ export const ContainerSkills = styled.div`
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      text-align: jusitfy;
       width: 12rem;
       height: 12rem;
+
+      @media (max-width: 1440px) {
+        width: 8rem;
+        height: 8rem;
+      }
 
       img {
         width: 80px;
         height: 80px;
+        @media (max-width: 1440px) {
+          width: 3rem;
+          height: 3rem;
+        }
       }
 
       p {
@@ -406,6 +424,10 @@ export const ContainerSkills = styled.div`
     box-shadow: 1px 1px 36px -4px white;
     border: 0.1rem solid orange;
     transform: scale(1.5);
+
+    @media (max-width: 1440px) {
+      transform: scale(1.2);
+    }
   }
 `;
 
