@@ -269,9 +269,16 @@ export const DivAbout = styled.div`
     margin-top: 20px;
     border-bottom: 5px solid white;
 
+    @media (max-width: 1440px) {
+      border-bottom: 2.5px solid white;
+    }
+
     p {
       font-size: 50px;
       color: white;
+      @media (max-width: 1440px) {
+        font-size: 35px;
+      }
     }
   }
 `;
@@ -286,6 +293,11 @@ export const CardMe = styled.div`
   background-color: white;
   border-radius: 20px;
 
+  @media (max-width: 1440px) {
+    width: 63.3rem;
+    height: 40rem;
+  }
+
   .photo-card {
     display: flex;
     align-items: center;
@@ -293,6 +305,10 @@ export const CardMe = styled.div`
     margin-left: 8rem;
     width: 20rem;
     height: 30rem;
+
+    @media (max-width: 1440px) {
+      width: 10rem;
+    }
 
     .photo {
       display: flex;
@@ -336,6 +352,9 @@ export const CardMe = styled.div`
       text-decoration: none;
       font-size: 17px;
       font-weight: 400;
+      @media (max-width: 1440px) {
+        font-size: 14px;
+      }
     }
   }
 `;
