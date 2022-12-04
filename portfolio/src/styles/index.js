@@ -70,6 +70,10 @@ export const Main = styled.main`
   display: flex;
   width: 100%;
   height: 52rem;
+
+  @media screen and (max-width: 1024px) {
+    height: 44rem;
+  }
 `;
 
 export const SectionInfo = styled.section`
