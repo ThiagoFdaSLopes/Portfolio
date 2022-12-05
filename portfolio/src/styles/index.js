@@ -401,6 +401,8 @@ export const DivPhoto = styled.div`
 export const DivAbout = styled.div`
   display: flex;
   justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
   width: 100%;
   height: 8rem;
 
@@ -431,8 +433,8 @@ export const CardMe = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80%;
-  margin-left: 15rem;
+  width: 127rem;
+  margin-left: 16rem;
   height: 50rem;
   background-color: white;
   border-radius: 20px;
