@@ -193,7 +193,7 @@ export const DivApresentacao = styled.div`
     position: relative;
     height: 64px;
     top: 320px;
-    left: 500px;
+    left: 450px;
 
     @media screen and (max-width: 1440px) {
       top: 200px;
@@ -429,11 +429,11 @@ export const DivAbout = styled.div`
 
 export const CardMe = styled.div`
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   width: 80%;
-  margin-left: 12rem;
-  height: 45rem;
+  margin-left: 15rem;
+  height: 50rem;
   background-color: white;
   border-radius: 20px;
 
