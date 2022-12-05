@@ -88,7 +88,7 @@ export const StyledLink = styled(NavLink)`
 export const Main = styled.main`
   display: flex;
   width: 100%;
-  height: 52rem;
+  height: 70rem;
 
   @media screen and (max-width: 1024px) {
     height: 44rem;
@@ -104,9 +104,11 @@ export const Main = styled.main`
 export const SectionInfo = styled.section`
   display: flex;
   flex-direction: column;
-  margin-left: 10rem;
-  width: 45rem;
-  height: 52rem;
+  align-items: center;
+  justify-content: center;
+  margin-left: 14rem;
+  width: 60rem;
+  height: 70rem;
   
   @media screen and (max-width: 1024px) {
     margin-left: 5rem;
@@ -123,9 +125,9 @@ export const SectionInfo = styled.section`
 export const SectionPhoto = styled.section`
   display: flex;
   justify-content: center;
-  margin-top: 8rem;
-  width: 55rem;
-  height: 52rem;
+  align-items: center;
+  width: 60rem;
+  height: 70rem;
 
   @media screen and (max-width: 1024px) {
     width: 30rem;
@@ -145,9 +147,7 @@ export const DivApresentacao = styled.div`
   justify-content: center;
   align-items: center;
   width: 40rem;
-  height: 20rem;
-  margin-top: 13rem;
-  margin-left: 6rem;
+  height: 30rem;
 
   @media screen and (max-width: 1440px) {
     width: 60%;
@@ -192,8 +192,8 @@ export const DivApresentacao = styled.div`
   .arrow-about {
     position: relative;
     height: 64px;
-    top: 290px;
-    left: 310px;
+    top: 320px;
+    left: 500px;
 
     @media screen and (max-width: 1440px) {
       top: 200px;
@@ -205,7 +205,7 @@ export const DivApresentacao = styled.div`
       left: 230px;
     }
 
-    @media screen and (max-width: 1024px) {
+    @media screen and (max-width: 375px) {
       display: none;
     }
   }
