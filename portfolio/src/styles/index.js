@@ -560,7 +560,7 @@ export const ContainerSkills = styled.div`
   justify-content: center;
   align-items: center;
   width: 80%;
-  margin-left: 15rem;
+  margin-left: 12rem;
   height: 45rem;
 
   @media screen and (max-width: 1440px) {
@@ -585,7 +585,7 @@ export const ContainerSkills = styled.div`
     align-items: center;
     flex-flow: row wrap;
     gap: 5rem;
-    width: 70%;
+    width: 90%;
     height: 30rem;
 
     @media screen and (max-width: 1440px) {
@@ -665,8 +665,8 @@ export const ContainerProjects = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70rem;
-  margin-left: 43rem;
+  width: 100rem;
+  margin-left: 10rem;
   height: 55rem;
 
   @media screen and (max-width: 1440px) {
@@ -808,7 +808,7 @@ export const DivProject = styled.div`
 export const DivContact = styled.div`
   width: 80%;
   height: 15rem;
-  margin-left: 16rem;
+  margin-left: 11rem;
   display: flex;
   align-items: center;
   justify-content: center;
