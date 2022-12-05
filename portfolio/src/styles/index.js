@@ -677,6 +677,11 @@ export const ContainerProjects = styled.div`
     margin-left: 3rem;
     width: 56rem;
   }
+
+  @media screen and (max-width: 375px) {
+    margin-left: 0;
+    height: 40rem;
+  }
 `;
 
 export const DivProject = styled.div`
@@ -809,6 +814,12 @@ export const DivContact = styled.div`
   @media screen and (max-width: 1024px) {
     width: 55rem;
     margin-left: 5.5rem;
+  }
+
+  @media screen and (max-width: 1024px) {
+    width: 20rem;
+    margin-left: 2.3rem;
+    height: 10rem;
   }
 
   p {
