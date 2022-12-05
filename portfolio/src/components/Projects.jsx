@@ -14,7 +14,7 @@ const ProjectsBox = () => {
         </header>
       </DivAbout>
       <ContainerProjects>
-        <Carousel itemsToShow={2}>
+        <Carousel itemsToShow={2} breakPoints={[{ width: 375, itemsToShow: 1}]}>
             { DataProjects.map((e, index) => (
               <DivProject key={index}>
                 <div className='DivImage'>

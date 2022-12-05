@@ -89,7 +89,7 @@ export const Main = styled.main`
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 70rem;
+  height: 60rem;
 
   @media screen and (max-width: 1024px) {
     height: 44rem;
@@ -108,7 +108,7 @@ export const SectionInfo = styled.section`
   align-items: center;
   justify-content: center;
   width: 60rem;
-  height: 70rem;
+  height: 50rem;
   
   @media screen and (max-width: 1024px) {
     margin-left: 5rem;
@@ -127,7 +127,7 @@ export const SectionPhoto = styled.section`
   justify-content: center;
   align-items: center;
   width: 60rem;
-  height: 70rem;
+  height: 50rem;
 
   @media screen and (max-width: 1024px) {
     width: 30rem;
@@ -433,9 +433,9 @@ export const CardMe = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 127rem;
-  margin-left: 16rem;
-  height: 50rem;
+  width: 95rem;
+  margin-left: 12rem;
+  height: 40rem;
   background-color: white;
   border-radius: 20px;
 
@@ -462,7 +462,7 @@ export const CardMe = styled.div`
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-left: 8rem;
+    margin-left: 5rem;
     width: 20rem;
     height: 30rem;
 
@@ -681,8 +681,9 @@ export const ContainerProjects = styled.div`
   }
 
   @media screen and (max-width: 375px) {
+    width: 28rem;
+    height: 50rem;
     margin-left: 0;
-    height: 40rem;
   }
 `;
 
@@ -695,7 +696,6 @@ export const DivProject = styled.div`
   height: 40rem;
   display: flex;
   flex-flow: row wrap;
-  gap: 1rem;
 
   @media screen and (max-width: 1440px) {
     width: 25rem;
@@ -708,18 +708,18 @@ export const DivProject = styled.div`
     width: 56rem;
   }
 
+  @media screen and (max-width: 375px) {
+    width: 28rem;
+    height: 40rem;
+  }
+
   .DivImage {
     width: 100%;
     height: 240px;
     border-radius: 5px;
     background-color: rgb(238, 238, 238);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center top;
     display: flex;
-    -webkit-box-align: center;
     align-items: center;
-    -webkit-box-pack: center;
     justify-content: center;
 
     @media screen and (max-width: 1440px) {
@@ -734,6 +734,7 @@ export const DivProject = styled.div`
   .DivImage img {
     width: 100%;
     height: 240px;
+
     @media screen and (max-width: 1440px) {
       height: 200px;
     }
@@ -746,15 +747,20 @@ export const DivProject = styled.div`
   .Divinfo {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    margin-top: 2px;
+
     @media screen and (max-width: 1440px) {
-      gap: 1px;
       font-size: 12px;
     }
 
     @media screen and (max-width: 1024px) {
-      gap: 1px;
       font-size: 12px;
+    }
+
+    @media screen and (max-width: 375px) {
+      width: 15rem;
+      height: 13rem;
+      margin: 0;
     }
   }
 
@@ -764,10 +770,11 @@ export const DivProject = styled.div`
     display: flex;
     -webkit-box-align: center;
     align-items: center;
-    gap: 10px;
+
     @media screen and (max-width: 1440px) {
       font-size: 10px;
     }
+
     @media screen and (max-width: 1024px) {
       font-size: 8px;
     }
@@ -782,7 +789,6 @@ export const DivProject = styled.div`
     display: flex;
     -webkit-box-align: center;
     align-items: center;
-    gap: 5px;
     color: rgb(0, 0, 0);
   }
 
