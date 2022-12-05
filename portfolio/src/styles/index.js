@@ -87,6 +87,7 @@ export const StyledLink = styled(NavLink)`
 
 export const Main = styled.main`
   display: flex;
+  justify-content: center;
   width: 100%;
   height: 70rem;
 
@@ -106,7 +107,6 @@ export const SectionInfo = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-left: 14rem;
   width: 60rem;
   height: 70rem;
   
@@ -583,7 +583,7 @@ export const ContainerSkills = styled.div`
     align-items: center;
     flex-flow: row wrap;
     gap: 5rem;
-    width: 90%;
+    width: 70%;
     height: 30rem;
 
     @media screen and (max-width: 1440px) {
@@ -663,8 +663,8 @@ export const ContainerProjects = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80%;
-  margin-left: 12rem;
+  width: 90%;
+  margin-left: 7rem;
   height: 55rem;
 
   @media screen and (max-width: 1440px) {
