@@ -6,7 +6,7 @@ import Skills from '../pages/Skills';
 import Projects from '../pages/Projects';
 import PageContact from '../pages/PageContact';
 
-const Rotas = () => {
+function Rotas() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
@@ -16,6 +16,6 @@ const Rotas = () => {
       <Route path="/contact" element={<PageContact />} />
     </Routes>
   );
-};
+}
 
 export default Rotas;

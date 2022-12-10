@@ -2,7 +2,7 @@ import React from 'react';
 import { CardMe, DivAbout } from '../styles';
 import thiago from '../assets/thiago1.jpg';
 
-const AboutMe = () => {
+function AboutMe() {
   return (
     <>
       <DivAbout>
@@ -12,10 +12,10 @@ const AboutMe = () => {
       </DivAbout>
       <CardMe>
         <div className="photo-card">
-          <div className="photo" >
+          <div className="photo">
             <img src={thiago} alt="foto do thiago perfil" />
           </div>
-          <p className="frase-inspiradora" >
+          <p className="frase-inspiradora">
             Seja você quem for, seja qual for a posição social que você tenha na
             vida, a mais alta ou a mais baixa, tenha sempre como meta muita
             força, muita determinação e sempre faça tudo com muito amor e com
@@ -48,9 +48,9 @@ const AboutMe = () => {
           <p>
             A partir dos 12 anos até os 18 anos, eu vivi na programação
             brincando e trabalhando da melhor forma possível, eu criava
-            "Servidores" de jogos online e cobrava certa quantia de outras
+            `Servidores` de jogos online e cobrava certa quantia de outras
             pessoas para poder jogar nesse servidor dos mais variados jogos que
-            tem "código aberto" na internet, por exemplo: DDTank, Minecraft, The
+            tem `código aberto` na internet, por exemplo: DDTank, Minecraft, The
             War Z, Habbo, MU Online, FIVEM(GTA 5) entre outros não tão
             conhecidos.
           </p>
@@ -83,6 +83,6 @@ const AboutMe = () => {
       </CardMe>
     </>
   );
-};
+}
 
 export default AboutMe;

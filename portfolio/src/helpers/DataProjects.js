@@ -17,7 +17,7 @@ const DataProjects = [
     imagem: TrybeTunes,
     link: 'https://projeto-trybe-tunes-kappa.vercel.app/',
     github: 'https://github.com/ThiagoFdaSLopes/Projeto-TrybeTunes',
-    stacks: [javascript, reacts, html, css, git, github]
+    stacks: [javascript, reacts, html, css, git, github],
   },
   {
     name: 'TrybeWallet',
@@ -25,7 +25,7 @@ const DataProjects = [
     imagem: TrybeWallet,
     link: 'https://trybe-wallet-seven.vercel.app/',
     github: 'https://github.com/ThiagoFdaSLopes/Trybe-Wallet',
-    stacks: [javascript, reacts, html, css, git, github]
+    stacks: [javascript, reacts, html, css, git, github],
   },
   {
     name: 'SecretWord',
@@ -33,7 +33,7 @@ const DataProjects = [
     imagem: SecretWord,
     link: 'https://secret-word-lyart.vercel.app/',
     github: 'https://github.com/ThiagoFdaSLopes/secretWord',
-    stacks: [javascript, reacts, html, css, git, github]
+    stacks: [javascript, reacts, html, css, git, github],
   },
   {
     name: 'Front-End Online Store',
@@ -41,13 +41,13 @@ const DataProjects = [
     imagem: frontendonlinestore,
     link: 'https://projeto-front-end-online-store.vercel.app/',
     github: 'https://github.com/ThiagoFdaSLopes/Projeto-Front-End-Online-Store',
-    stacks: [javascript, reacts, html, css, git, github]
+    stacks: [javascript, reacts, html, css, git, github],
   },
   {
     name: 'App de Receitas',
     description: '',
     imagem: '',
-    stacks: [javascript, reacts, html, css, git, github]
+    stacks: [javascript, reacts, html, css, git, github],
   },
   {
     name: 'Pixel Art',
@@ -55,19 +55,19 @@ const DataProjects = [
     imagem: PixelsArt,
     github: 'https://github.com/ThiagoFdaSLopes/Projeto-Pixels-Art',
     link: 'https://pixel-arts-sage.vercel.app/',
-    stacks: [javascript, html, css, git, github]
+    stacks: [javascript, html, css, git, github],
   },
   {
     name: 'Jogo de Trivia',
     description: '',
     imagem: '',
-    stacks: [javascript, reacts, html, css, git, github]
+    stacks: [javascript, reacts, html, css, git, github],
   },
   {
     name: 'StarWars Planets Search',
     description: '',
     imagem: '',
-    stacks: [javascript, reacts, html, css, git, github]
+    stacks: [javascript, reacts, html, css, git, github],
   },
 ];
 

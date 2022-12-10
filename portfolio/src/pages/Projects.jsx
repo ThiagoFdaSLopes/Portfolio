@@ -2,13 +2,13 @@ import React from 'react';
 import ProjectsBox from '../components/Projects';
 import HeaderHome from '../components/Header';
 
-const Projects = () => {
+function Projects() {
   return (
     <>
-    <HeaderHome />
-    <ProjectsBox />
+      <HeaderHome />
+      <ProjectsBox />
     </>
-  )
-};
+  );
+}
 
 export default Projects;

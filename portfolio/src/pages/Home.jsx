@@ -6,7 +6,7 @@ import Skills from '../components/Skills';
 import Projects from '../components/Projects';
 import Contact from '../components/Contact';
 
-const Home = () => {
+function Home() {
   return (
     <>
       <HeaderHome />
@@ -17,6 +17,6 @@ const Home = () => {
       <Contact />
     </>
   );
-};
+}
 
 export default Home;
