@@ -22,7 +22,7 @@ export const Header = styled.header`
   }
 
   @media screen and (max-width: 375px) {
-    width: 82vw;
+    width: 85vw;
     margin-left: 30px;
   }
 `;
