@@ -574,7 +574,7 @@ export const ContainerSkills = styled.div`
   }
 
   @media screen and (max-width: 375px) {
-    margin-left: 1.2rem;
+    margin-left: 1.85rem;
     width: 20rem;
     height: 40rem;
   }
