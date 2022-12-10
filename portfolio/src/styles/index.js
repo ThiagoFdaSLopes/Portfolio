@@ -823,10 +823,10 @@ export const DivContact = styled.div`
     margin-left: 5.5rem;
   }
 
-  @media screen and (max-width: 1024px) {
-    width: 20rem;
-    margin-left: 2.3rem;
-    height: 10rem;
+  @media screen and (max-width: 375px) {
+    width: 18rem;
+    margin-left: 2.8rem;
+    height: 12rem;
   }
 
   p {
@@ -846,5 +846,10 @@ export const DivContact = styled.div`
     width: 48px;
     height: 48px;
     margin: 1rem;
+
+    @media screen and (max-width: 375px) {
+      width: 48px;
+      height: 48px;
+    }
   }
 `;
