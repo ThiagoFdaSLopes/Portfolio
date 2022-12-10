@@ -22,7 +22,7 @@ export const Header = styled.header`
   }
 
   @media screen and (max-width: 375px) {
-    width: 82vw;
+    width: 85vw;
     margin-left: 30px;
   }
 `;
@@ -87,8 +87,9 @@ export const StyledLink = styled(NavLink)`
 
 export const Main = styled.main`
   display: flex;
+  justify-content: center;
   width: 100%;
-  height: 52rem;
+  height: 60rem;
 
   @media screen and (max-width: 1024px) {
     height: 44rem;
@@ -104,9 +105,10 @@ export const Main = styled.main`
 export const SectionInfo = styled.section`
   display: flex;
   flex-direction: column;
-  margin-left: 10rem;
-  width: 45rem;
-  height: 52rem;
+  align-items: center;
+  justify-content: center;
+  width: 60rem;
+  height: 50rem;
   
   @media screen and (max-width: 1024px) {
     margin-left: 5rem;
@@ -123,9 +125,9 @@ export const SectionInfo = styled.section`
 export const SectionPhoto = styled.section`
   display: flex;
   justify-content: center;
-  margin-top: 8rem;
-  width: 55rem;
-  height: 52rem;
+  align-items: center;
+  width: 60rem;
+  height: 50rem;
 
   @media screen and (max-width: 1024px) {
     width: 30rem;
@@ -145,9 +147,7 @@ export const DivApresentacao = styled.div`
   justify-content: center;
   align-items: center;
   width: 40rem;
-  height: 20rem;
-  margin-top: 13rem;
-  margin-left: 6rem;
+  height: 30rem;
 
   @media screen and (max-width: 1440px) {
     width: 60%;
@@ -192,8 +192,8 @@ export const DivApresentacao = styled.div`
   .arrow-about {
     position: relative;
     height: 64px;
-    top: 290px;
-    left: 310px;
+    top: 320px;
+    left: 450px;
 
     @media screen and (max-width: 1440px) {
       top: 200px;
@@ -205,7 +205,7 @@ export const DivApresentacao = styled.div`
       left: 230px;
     }
 
-    @media screen and (max-width: 1024px) {
+    @media screen and (max-width: 375px) {
       display: none;
     }
   }
@@ -401,6 +401,8 @@ export const DivPhoto = styled.div`
 export const DivAbout = styled.div`
   display: flex;
   justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
   width: 100%;
   height: 8rem;
 
@@ -429,11 +431,11 @@ export const DivAbout = styled.div`
 
 export const CardMe = styled.div`
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  width: 80%;
+  width: 95rem;
   margin-left: 12rem;
-  height: 45rem;
+  height: 40rem;
   background-color: white;
   border-radius: 20px;
 
@@ -451,7 +453,7 @@ export const CardMe = styled.div`
   @media screen and (max-width: 375px) {
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
+    margin-left: 1.8rem;
     width: 20rem;
     height: 60rem;
   }
@@ -460,7 +462,7 @@ export const CardMe = styled.div`
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-left: 8rem;
+    margin-left: 5rem;
     width: 20rem;
     height: 30rem;
 
@@ -567,8 +569,14 @@ export const ContainerSkills = styled.div`
   }
 
   @media screen and (max-width: 1024px) {
-      margin-left: 4rem;
-      width: 55rem;
+    margin-left: 4rem;
+    width: 55rem;
+  }
+
+  @media screen and (max-width: 375px) {
+    margin-left: 1.85rem;
+    width: 20rem;
+    height: 40rem;
   }
 
   .skills {
@@ -587,6 +595,12 @@ export const ContainerSkills = styled.div`
 
     @media screen and (max-width: 1024px) {
       width: 55rem;
+    }
+
+    @media screen and (max-width: 375px) {
+      width: 20rem;
+      height: 40rem;
+      gap: 2rem;
     }
     .habilidades {
       background-color: white;
@@ -651,8 +665,8 @@ export const ContainerProjects = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80%;
-  margin-left: 12rem;
+  width: 100rem;
+  margin-left: 10rem;
   height: 55rem;
 
   @media screen and (max-width: 1440px) {
@@ -665,6 +679,12 @@ export const ContainerProjects = styled.div`
     margin-left: 3rem;
     width: 56rem;
   }
+
+  @media screen and (max-width: 375px) {
+    width: 30rem;
+    height: 40rem;
+    margin-left: 0;
+  }
 `;
 
 export const DivProject = styled.div`
@@ -673,10 +693,9 @@ export const DivProject = styled.div`
   color: black;
   background-color: white;
   width: 25rem;
-  height: 40rem;
+  height: 37rem;
   display: flex;
-  flex-flow: row wrap;
-  gap: 1rem;
+  flex-direction: column;
 
   @media screen and (max-width: 1440px) {
     width: 25rem;
@@ -689,18 +708,18 @@ export const DivProject = styled.div`
     width: 56rem;
   }
 
+  @media screen and (max-width: 375px) {
+    width: 28rem;
+    height: 32rem;
+  }
+
   .DivImage {
     width: 100%;
     height: 240px;
     border-radius: 5px;
     background-color: rgb(238, 238, 238);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center top;
     display: flex;
-    -webkit-box-align: center;
     align-items: center;
-    -webkit-box-pack: center;
     justify-content: center;
 
     @media screen and (max-width: 1440px) {
@@ -715,6 +734,7 @@ export const DivProject = styled.div`
   .DivImage img {
     width: 100%;
     height: 240px;
+
     @media screen and (max-width: 1440px) {
       height: 200px;
     }
@@ -727,15 +747,19 @@ export const DivProject = styled.div`
   .Divinfo {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    text-align: justify;
+
     @media screen and (max-width: 1440px) {
-      gap: 1px;
       font-size: 12px;
     }
 
     @media screen and (max-width: 1024px) {
-      gap: 1px;
       font-size: 12px;
+    }
+
+    @media screen and (max-width: 375px) {
+      width: 15rem;
+      height: 13rem;
     }
   }
 
@@ -745,10 +769,11 @@ export const DivProject = styled.div`
     display: flex;
     -webkit-box-align: center;
     align-items: center;
-    gap: 10px;
+
     @media screen and (max-width: 1440px) {
       font-size: 10px;
     }
+
     @media screen and (max-width: 1024px) {
       font-size: 8px;
     }
@@ -763,7 +788,6 @@ export const DivProject = styled.div`
     display: flex;
     -webkit-box-align: center;
     align-items: center;
-    gap: 5px;
     color: rgb(0, 0, 0);
   }
 
@@ -783,7 +807,7 @@ export const DivProject = styled.div`
 export const DivContact = styled.div`
   width: 80%;
   height: 15rem;
-  margin-left: 12rem;
+  margin-left: 11rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -797,6 +821,12 @@ export const DivContact = styled.div`
   @media screen and (max-width: 1024px) {
     width: 55rem;
     margin-left: 5.5rem;
+  }
+
+  @media screen and (max-width: 375px) {
+    width: 18rem;
+    margin-left: 2.8rem;
+    height: 12rem;
   }
 
   p {
@@ -816,5 +846,10 @@ export const DivContact = styled.div`
     width: 48px;
     height: 48px;
     margin: 1rem;
+
+    @media screen and (max-width: 375px) {
+      width: 48px;
+      height: 48px;
+    }
   }
 `;

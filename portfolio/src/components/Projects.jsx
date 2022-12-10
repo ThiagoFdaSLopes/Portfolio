@@ -14,15 +14,11 @@ function ProjectsBox() {
         </header>
       </DivAbout>
       <ContainerProjects>
-        <Carousel itemsToShow={2}>
-          { DataProjects.map((e) => (
-            <DivProject key={e.name}>
-              <div className="DivImage">
-                <img src={e.imagem} alt="projeto imagem" />
-              </div>
-              <div className="Divinfo">
-                <div>
-                  <h3>{e.name}</h3>
+        <Carousel itemsToShow={2} breakPoints={[{ width: 375, itemsToShow: 1}]}>
+            { DataProjects.map((e, index) => (
+              <DivProject key={index}>
+                <div className='DivImage'>
+                  <img src={e.imagem} alt="projeto imagem" />
                 </div>
                 <p>{e.description}</p>
                 <p>
