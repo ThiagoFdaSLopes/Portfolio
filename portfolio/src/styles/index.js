@@ -709,7 +709,7 @@ export const DivProject = styled.div`
   }
 
   @media screen and (max-width: 375px) {
-    width: 28rem;
+    width: 30rem;
     height: 32rem;
   }
 

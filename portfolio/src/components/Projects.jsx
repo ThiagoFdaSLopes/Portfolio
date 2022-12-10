@@ -14,33 +14,32 @@ function ProjectsBox() {
         </header>
       </DivAbout>
       <ContainerProjects>
-        <Carousel itemsToShow={2} breakPoints={[{ width: 375, itemsToShow: 1}]}>
-            { DataProjects.map((e, index) => (
-              <DivProject key={index}>
-                <div className='DivImage'>
-                  <img src={e.imagem} alt="projeto imagem" />
-                </div>
-                <p>{e.description}</p>
-                <p>
-                  <strong>Technologies:</strong>
-                  <div className="div-stacks">
-                    {
+        <Carousel itemsToShow={2} breakPoints={[{ width: 375, itemsToShow: 1 }]}>
+          { DataProjects.map((e) => (
+            <DivProject key={e.name}>
+              <div className="DivImage">
+                <img src={e.imagem} alt="projeto imagem" />
+              </div>
+              <p>{e.description}</p>
+              <p>
+                <strong>Technologies:</strong>
+                <div className="div-stacks">
+                  {
                         e.stacks.map((e2) => (
                           <img key={Math.floor(Math.random(100) * 15)} src={e2} alt="stack" />
                         ))
                       }
-                  </div>
-                </p>
-                <div className="div-links-project">
-                  <a href={e.link} target="_blank" rel="noopener noreferrer">
-                    <img src={link} alt="imagem link" />
-                    Preview
-                  </a>
-                  <a href={e.github} target="_blank" rel="noopener noreferrer">
-                    <img src={github} alt="imagem link" />
-                    Github
-                  </a>
                 </div>
+              </p>
+              <div className="div-links-project">
+                <a href={e.link} target="_blank" rel="noopener noreferrer">
+                  <img src={link} alt="imagem link" />
+                  Preview
+                </a>
+                <a href={e.github} target="_blank" rel="noopener noreferrer">
+                  <img src={github} alt="imagem link" />
+                  Github
+                </a>
               </div>
             </DivProject>
           ))}
