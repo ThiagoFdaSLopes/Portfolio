@@ -681,8 +681,8 @@ export const ContainerProjects = styled.div`
   }
 
   @media screen and (max-width: 375px) {
-    width: 28rem;
-    height: 50rem;
+    width: 30rem;
+    height: 40rem;
     margin-left: 0;
   }
 `;
@@ -693,9 +693,9 @@ export const DivProject = styled.div`
   color: black;
   background-color: white;
   width: 25rem;
-  height: 40rem;
+  height: 37rem;
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: column;
 
   @media screen and (max-width: 1440px) {
     width: 25rem;
@@ -710,7 +710,7 @@ export const DivProject = styled.div`
 
   @media screen and (max-width: 375px) {
     width: 28rem;
-    height: 40rem;
+    height: 32rem;
   }
 
   .DivImage {
@@ -747,7 +747,7 @@ export const DivProject = styled.div`
   .Divinfo {
     display: flex;
     flex-direction: column;
-    margin-top: 2px;
+    text-align: justify;
 
     @media screen and (max-width: 1440px) {
       font-size: 12px;
@@ -760,7 +760,6 @@ export const DivProject = styled.div`
     @media screen and (max-width: 375px) {
       width: 15rem;
       height: 13rem;
-      margin: 0;
     }
   }
 
