@@ -49,7 +49,7 @@ const DataSkills = [
   {
     name: 'Jest',
     imagem: jest,
-  }
+  },
 ];
 
 export default DataSkills;

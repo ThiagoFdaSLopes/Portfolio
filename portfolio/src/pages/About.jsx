@@ -1,14 +1,14 @@
 import React from 'react';
 import AboutMe from '../components/AboutMe';
-import HeaderHome from '../components/Header'
+import HeaderHome from '../components/Header';
 
-const About = () => {
+function About() {
   return (
     <>
       <HeaderHome />
       <AboutMe />
     </>
   );
-};
+}
 
 export default About;

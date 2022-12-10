@@ -2,7 +2,7 @@ import React from 'react';
 import { ContainerSkills, DivAbout } from '../styles';
 import DataSkills from '../helpers/Dataskills';
 
-const SkillsBox = () => {
+function SkillsBox() {
   return (
     <>
       <DivAbout>
@@ -12,8 +12,8 @@ const SkillsBox = () => {
       </DivAbout>
       <ContainerSkills>
         <div className="skills">
-          {DataSkills.map(({ name, imagem }, index) => (
-            <div className="habilidades" key={index}>
+          {DataSkills.map(({ name, imagem }) => (
+            <div className="habilidades" key={name}>
               <img src={imagem} alt="stack" />
               <p>{name}</p>
             </div>
@@ -22,6 +22,6 @@ const SkillsBox = () => {
       </ContainerSkills>
     </>
   );
-};
+}
 
 export default SkillsBox;

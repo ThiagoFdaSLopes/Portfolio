@@ -17,7 +17,7 @@ import nodejs from '../assets/nodejs.svg';
 import js from '../assets/js.svg';
 import arrow from '../assets/arrow2.png';
 
-const MainSections = () => {
+function MainSections() {
   const name = '<THIAGO LOPES />';
   const stack = 'DEV FULLSTACK';
   return (
@@ -25,7 +25,7 @@ const MainSections = () => {
       <SectionInfo>
         <DivApresentacao>
           <DivSaudacao>
-            <img src={hand} />
+            <img src={hand} alt="mão de cumprimento" />
             <p>Saudações</p>
           </DivSaudacao>
           <p className="name">{name}</p>
@@ -56,6 +56,6 @@ const MainSections = () => {
       </SectionPhoto>
     </Main>
   );
-};
+}
 
 export default MainSections;

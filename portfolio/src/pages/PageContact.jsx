@@ -2,13 +2,13 @@ import React from 'react';
 import Contact from '../components/Contact';
 import HeaderHome from '../components/Header';
 
-const PageContact = () => {
+function PageContact() {
   return (
     <>
-    <HeaderHome />
-    <Contact />
+      <HeaderHome />
+      <Contact />
     </>
-  )
-};
+  );
+}
 
 export default PageContact;

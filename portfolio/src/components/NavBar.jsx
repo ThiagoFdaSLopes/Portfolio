@@ -1,7 +1,7 @@
 import React from 'react';
 import { Nav, StyledLink } from '../styles';
 
-const NavBar = () => {
+function NavBar() {
   return (
     <Nav>
       <StyledLink to="/">Home</StyledLink>
@@ -11,6 +11,6 @@ const NavBar = () => {
       <StyledLink to="/contact">Contact</StyledLink>
     </Nav>
   );
-};
+}
 
 export default NavBar;
