@@ -453,7 +453,7 @@ export const CardMe = styled.div`
   @media screen and (max-width: 375px) {
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
+    margin-left: 1.8rem;
     width: 20rem;
     height: 60rem;
   }
