@@ -5,6 +5,24 @@ import DataProjects from '../helpers/DataProjects';
 import link from '../assets/link.svg';
 import github from '../assets/github.png';
 
+const breakpoint = [
+  {
+    width: 375,
+    itemsToShow: 1,
+    itemsToScroll: 1,
+  },
+  {
+    width: 1440,
+    itemsToShow: 2,
+    itemsToScroll: 1,
+  },
+  {
+    width: 1920,
+    itemsToShow: 2,
+    itemsToScroll: 1,
+  },
+];
+
 function ProjectsBox() {
   return (
     <>
@@ -14,7 +32,7 @@ function ProjectsBox() {
         </header>
       </DivAbout>
       <ContainerProjects>
-        <Carousel itemsToShow={2} breakPoints={[{ width: 375, itemsToShow: 1 }]}>
+        <Carousel breakPoints={breakpoint} showArrows={window.outerWidth !== 375}>
           { DataProjects.map((e) => (
             <DivProject key={e.name}>
               <div className="DivImage">
